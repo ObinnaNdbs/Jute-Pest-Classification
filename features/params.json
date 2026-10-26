@@ -1,0 +1,59 @@
+{
+  "image_size": 256,
+  "hog": {
+    "orientations": 9,
+    "pixels_per_cell": [
+      16,
+      16
+    ],
+    "cells_per_block": [
+      2,
+      2
+    ],
+    "block_norm": "L2-Hys"
+  },
+  "hsv": {
+    "bins": [
+      16,
+      4,
+      4
+    ]
+  },
+  "lbp": {
+    "scales": [
+      [
+        8,
+        1
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        24,
+        3
+      ]
+    ],
+    "method": "uniform"
+  },
+  "histograms_use_content_box": true,
+  "classes": [
+    "Beet Armyworm",
+    "Black Hairy",
+    "Cutworm",
+    "Field Cricket",
+    "Jute Aphid",
+    "Jute Hairy",
+    "Jute Red Mite",
+    "Jute Semilooper",
+    "Jute Stem Girdler",
+    "Jute Stem Weevil",
+    "Leaf Beetle",
+    "Mealybug",
+    "Pod Borer",
+    "Scopula Emissaria",
+    "Termite",
+    "Termite odontotermes (Rambur)",
+    "Yellow Mite"
+  ]
+}

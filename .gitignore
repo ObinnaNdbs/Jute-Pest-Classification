@@ -2,12 +2,7 @@
 .venv/
 __pycache__/
 
-# Large or regenerable data (rebuild by running the pipeline scripts; see README)
-Jute_Pest_Dataset/
-Jute_Pest_256/
-features/
-
-# Published paper (copyrighted; don't redistribute)
+# Published paper (copyrighted; don't redistribute in a public repo)
 *.pdf
 
 # Office lock files created while a document is open

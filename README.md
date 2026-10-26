@@ -9,16 +9,27 @@ The data preparation is finished: auditing, preprocessing, duplicate detection a
 ## Setup
 
 ```bash
+git lfs install                 # once per machine; features.npz is stored with Git LFS
+git clone https://github.com/ObinnaNdbs/Jute-Pest-Classification.git
+cd Jute-Pest-Classification
 python -m venv .venv
 .venv\Scripts\activate          # Windows  (macOS/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
 ```
 
-The dataset goes in `Jute_Pest_Dataset/Jute_Pest_Dataset/{train,val,test}/<class>/` (the UCI archive layout).
+**Everything is already in the repository**, so you can start modeling immediately:
+- the original dataset in `Jute_Pest_Dataset/`
+- the preprocessed images in `Jute_Pest_256/`
+- the extracted features in `features/`
+- all audit outputs
+
+You only need to rerun the pipeline if you change a preprocessing or feature setting.
+
+Dataset: UCI Machine Learning Repository, "Jute Pest" (ID 920, DOI 10.24432/C5289P), licensed CC BY 4.0.
 
 ## Pipeline
 
-Run the scripts in this order. Each one reads the previous step's output. On a 24-core machine the whole run takes about 7 minutes.
+These are the scripts that produced the data in the repository. Run them in this order to regenerate it; each one reads the previous step's output. On a 24-core machine the whole run takes about 7 minutes.
 
 | # | Script | What it does | Output |
 |---|---|---|---|
@@ -33,7 +44,7 @@ Modeling code uses two helper modules:
 - **`jute_data.py`** loads any feature combination for either split scheme and builds cross-validation folds.
 - **`evaluation.py`** scores every model the same way and logs each run to `results/`.
 
-`features/features.npz` is 243 MB, so don't commit it to git (GitHub's file limit is 100 MB). Regenerate it by running steps 1–4 instead.
+`features/features.npz` (233 MB) is stored with **Git LFS**, because GitHub rejects normal files over 100 MB. If it shows up as a tiny text file after cloning, run `git lfs pull`.
 
 ---
 
