@@ -2,8 +2,6 @@
 .venv/
 __pycache__/
 
-# Published paper (copyrighted; don't redistribute in a public repo)
-*.pdf
 
 # Office lock files created while a document is open
 ~$*
