@@ -1,0 +1,10 @@
+# Python 3.13 (3.11+ should work)
+joblib==1.6.0
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==3.1.0
+pillow==13.0.0
+scikit-image==0.26.0
+scikit-learn==1.9.1
+scipy==1.18.1
+tqdm==4.70.1

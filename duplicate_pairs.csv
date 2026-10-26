@@ -1,0 +1,794 @@
+phash_dist,flip,inliers,type,same_class,cross_split,original_a,original_b
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_1633.jpg,val/Yellow Mite/yellow_mite_0_1633.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_4459.jpg,val/Yellow Mite/yellow_mite_0_4459.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_147.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_147.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_8536.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_8536.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_4236.jpg,val/Yellow Mite/yellow_mite_0_4236.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_153.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_153.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_148.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_148.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_7108.jpg,val/Yellow Mite/yellow_mite_0_7108.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_162.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_162.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_3871.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_3871.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_142.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_142.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13812_jpg.rf.2ebb5b1c24a753e873ef8e1cd8f93d2b.jpg,test/Jute Red Mite/red69_jpg.rf.fb07484f364d8076c33395a02ebc852d.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_6332.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_6332.jpg
+0,none,-1,exact,True,True,val/Jute Red Mite/14166_jpg.rf.3615dce993305ca7c9294bfc86312e84.jpg,test/Jute Red Mite/red93_jpg.rf.187ea50bc8f48e082f657d22456ade90.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13909_jpg.rf.c0afa90a8b1c236c15576f95cd9a1285.jpg,test/Jute Red Mite/red52_jpg.rf.43c5670f4af8ae240bd6d2e31ffdc9f2.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/14012_jpg.rf.5ea4392e60b31b00122da574236794f9.jpg,test/Jute Red Mite/red60_jpg.rf.e7ba95c373bf7f4f0bce913f189389f2.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_2890.jpg,val/Yellow Mite/yellow_mite_0_2890.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_3111.jpg,val/Yellow Mite/yellow_mite_0_3111.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_139.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_139.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_8984.jpg,val/Yellow Mite/yellow_mite_0_8984.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_156.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_156.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_7824.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_7824.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_141.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_141.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_4218.jpg,val/Yellow Mite/yellow_mite_0_4218.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_158.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_158.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13857_jpg.rf.310d3e84d938f72ea062d377439d93a1.jpg,test/Jute Red Mite/red85_jpg.rf.b8d14db38d8e3a08aeb13181997db3db.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_6033.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_6033.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/red22_jpg.rf.5fa35b96da7aaf8e30a0384f929898b4.jpg,val/Jute Red Mite/14307_jpg.rf.2358030c97302287a088df1103ee458b.jpg
+0,none,-1,exact,True,False,train/Leaf Beetle/original (2).jpeg,train/Leaf Beetle/original (3).jpeg
+0,none,-1,exact,True,False,train/Leaf Beetle/original (2).jpeg,train/Leaf Beetle/original (4).jpeg
+0,none,-1,exact,True,True,train/Leaf Beetle/images.jpg,val/Leaf Beetle/images.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_1492.jpg,val/Yellow Mite/yellow_mite_0_1492.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_6472.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_6472.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_9308.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_9308.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_9673.jpg,val/Yellow Mite/yellow_mite_0_9673.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_8791.jpg,val/Yellow Mite/yellow_mite_0_8791.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_2542.jpg,val/Yellow Mite/yellow_mite_0_2542.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_3423.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_3423.jpg
+0,none,-1,exact,True,False,train/Jute Red Mite/13877_jpg.rf.3a8fa8ea02f19ad9cfbdaf23750bc924.jpg,train/Jute Red Mite/red99_jpg.rf.8067420602a2a365b0b5ed76ee659881.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_159.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_159.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13941_jpg.rf.255c7376d22563cac71bf60f6e5a11fb.jpg,test/Jute Red Mite/red65_jpg.rf.c5f84da61bec1de74c4494633b85b075.jpg
+0,none,-1,exact,True,True,train/Beet Armyworm/Image_41_jpg.rf.8a00cbcc5ad8512f15cc590210befa6a.jpg,test/Beet Armyworm/Image_41_jpg.rf.8a00cbcc5ad8512f15cc590210befa6a.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_6999.jpg,val/Yellow Mite/yellow_mite_0_6999.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_9804.jpg,val/Yellow Mite/yellow_mite_0_9804.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_152.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_152.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_6743.jpg,val/Yellow Mite/yellow_mite_0_6743.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_6345.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_6345.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_7557.jpg,val/Yellow Mite/yellow_mite_0_7557.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13943_jpg.rf.4f636936a28139f73a48f21724d9b687.jpg,test/Jute Red Mite/red83_jpg.rf.1c4cb727774ea27856f3201e67d3c6db.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_157.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_157.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_4995.jpg,val/Yellow Mite/yellow_mite_0_4995.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_5742.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_5742.jpg
+0,none,-1,exact,True,True,val/Yellow Mite/yellow_mite_0_6454.jpg,test/Yellow Mite/yellow_mite_0_6454.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_1896.jpg,val/Yellow Mite/yellow_mite_0_1896.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_5209.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_5209.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_7513.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_7513.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_8363.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_8363.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_5935.jpg,val/Yellow Mite/yellow_mite_0_5935.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_1344.jpg,val/Yellow Mite/yellow_mite_0_1344.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_160.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_160.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13970_jpg.rf.d65e446f525f5356894cf7d7b08393f0.jpg,test/Jute Red Mite/red75_jpg.rf.f78bc7d3a83052ad02bb1630a4a8ef92.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_151.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_151.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13847_jpg.rf.8f77d491bde3d5d21bd8fcec566940b1.jpg,test/Jute Red Mite/red71_jpg.rf.2728d62ee08cfc4bf818192ca9c36502.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_2043.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_2043.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_4601.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_4601.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_163.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_163.jpg
+0,none,-1,exact,True,True,val/Jute Red Mite/14157_jpg.rf.8f4322f50cc94cfaf61788a1e95da1e9.jpg,test/Jute Red Mite/red61_jpg.rf.61b6a37cc86ea81cf3fc227ec07e7265.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_3606.jpg,val/Yellow Mite/yellow_mite_0_3606.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_3889.jpg,val/Yellow Mite/yellow_mite_0_3889.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_4071.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_4071.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_155.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_155.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_3415.jpg,val/Yellow Mite/yellow_mite_0_3415.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_2364.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_2364.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_154.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_154.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_4267.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_4267.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_3033.jpg,val/Yellow Mite/yellow_mite_0_3033.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_5729.jpg,val/Yellow Mite/yellow_mite_0_5729.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_146.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_146.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_3198.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_3198.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_161.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_161.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_143.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_143.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_3859.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_3859.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_7186.jpg,val/Yellow Mite/yellow_mite_0_7186.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13784_jpg.rf.3dc99831f8bbce4ed0569f6c44dbabcf.jpg,test/Jute Red Mite/red95_jpg.rf.b35213ae05c3d2dedddf1563c67b522a.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13944_jpg.rf.50abb6676a79142a0972cd2312f56265.jpg,val/Jute Red Mite/Red Spider.jpg
+0,none,-1,exact,True,True,val/Jute Red Mite/14027_jpg.rf.16ef8ee9ad6d0f2afdb8832f94568ec1.jpg,test/Jute Red Mite/red91_jpg.rf.80a1b1cb1c9f6f26c7f00bbec5d0e988.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_5346.jpg,val/Yellow Mite/yellow_mite_0_5346.jpg
+0,none,-1,exact,True,True,train/Yellow Mite/yellow_mite_0_5524.jpg,val/Yellow Mite/yellow_mite_0_5524.jpg
+0,none,-1,exact,True,True,train/Leaf Beetle/Luperomorpha-xanthodera-n.jpg,val/Leaf Beetle/Luperomorpha-xanthodera-n.jpg
+0,none,-1,exact,True,False,train/Jute Red Mite/13798_jpg.rf.93c7851bb8b4e24aec38f8a488d40d7a.jpg,train/Jute Red Mite/red98_jpg.rf.658bb0b203b0f7909bf433d3749d9e29.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_140.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_140.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_150.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_150.jpg
+0,none,-1,exact,True,True,val/Yellow Mite/yellow_mite_0_6423.jpg,test/Yellow Mite/yellow_mite_0_6423.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_144.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_144.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/13837_jpg.rf.0cee6de71bbc08cfc093ce180a90d468.jpg,test/Jute Red Mite/red70_jpg.rf.0865f9e038ba9ab2dc87ecb358edee6e.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_3128.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_3128.jpg
+0,none,-1,exact,True,True,train/Jute Red Mite/14172_jpg.rf.e0f368a4dde1983eaca4b5c0cb1de227.jpg,test/Jute Red Mite/red81_jpg.rf.0dcde518152c69a20b97316ae92bfbf4.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_9072.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_9072.jpg
+0,none,-1,exact,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_149.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_149.jpg
+0,none,-1,exact,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_1881.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_1881.jpg
+10,horizontal,585,near,True,True,train/Beet Armyworm/image-103-_jpg.rf.b72a6059916e808708c347a17678a519.jpg,val/Beet Armyworm/jpg_39-Copy-2-_jpg.rf.f772dbc4fd0aaaf290216f848b378901.jpg
+2,horizontal,726,near,True,True,train/Beet Armyworm/image-123-_jpg.rf.3bb7aa137cb8dabbd3c75fc434ff8817.jpg,test/Beet Armyworm/jpg_77-Copy-2-_jpg.rf.49053f9490b0ca3e9d83af58e879aa0b.jpg
+6,horizontal,473,near,True,True,train/Beet Armyworm/image-21-_jpg.rf.b11c2638b7e1d8772d3d0053c3653883.jpg,test/Beet Armyworm/image-49-_jpg.rf.bea68748bdba49337aa703c27ddcfed4.jpg
+0,none,674,near,True,False,train/Beet Armyworm/image-41-_jpg.rf.04dbb11f6ee78541c070d2383f36c6a8.jpg,train/Beet Armyworm/image-5-_jpg.rf.a7f59e3d1b8c3d32f2c63e6b9ff6f274.jpg
+2,horizontal,774,near,True,False,train/Beet Armyworm/image-44-_jpg.rf.2638bd6754d63f23fad733ff71f270fc.jpg,train/Beet Armyworm/jpg_53-Copy-2-_jpg.rf.296ba9b3462479374c317ae8606932b0.jpg
+8,horizontal,410,near,True,False,train/Beet Armyworm/image-45-_jpg.rf.e5b086fee6d634b81b5819b70c4992f7.jpg,train/Beet Armyworm/Image_32_jpg.rf.f169d12144489fbb9e1f07effd91ba2f.jpg
+6,horizontal,330,near,True,False,train/Beet Armyworm/image-47-_jpg.rf.5863215ee2df8f1b8691d8fde28cd6e4.jpg,train/Beet Armyworm/image-86-_jpg.rf.5b854e685b3ce2a7c240c2ce18c085ad.jpg
+2,horizontal,716,near,True,True,train/Beet Armyworm/image-74-_jpg.rf.b9418b96bb99d1c1576c6590ec6fc2a1.jpg,val/Beet Armyworm/Image_74_jpg.rf.52ebf486797d76e82e8bf8146b5e84b8.jpg
+4,horizontal,556,near,True,True,train/Beet Armyworm/image-83-_jpg.rf.e4dba1aaf8ac66752ccf3c16ac2769d6.jpg,val/Beet Armyworm/Image_24_jpg.rf.754deb6f189e4066a7a45d608a741cbf.jpg
+0,horizontal,727,near,True,False,train/Beet Armyworm/image-87-_jpg.rf.47bfdc0337198680f41f1d343a12cd67.jpg,train/Beet Armyworm/jpg_22-Copy-2-_jpg.rf.b1a352c4a5c53761ac63cced37497455.jpg
+14,none,349,near,True,False,train/Beet Armyworm/Image_102_jpg.rf.8e0fc3de4533dddf1791061651a270ba.jpg,train/Beet Armyworm/Image_10_jpg.rf.614886d2e80d158fafecf526283c8ba6.jpg
+0,none,885,near,True,False,train/Beet Armyworm/Image_14_jpg.rf.5626ac9673f4b87d4d7d1aa776420a27.jpg,train/Beet Armyworm/Image_40_jpg.rf.4764f7bfbe871ba8810534548476e4cd.jpg
+10,none,544,near,True,False,train/Beet Armyworm/Image_17_jpg.rf.d91af9183af141fa49c7db86e8132127.jpg,train/Beet Armyworm/Image_50_jpg.rf.b55315b5d62e052644097bc8638071ca.jpg
+6,none,494,near,True,True,train/Beet Armyworm/Image_18_jpg.rf.5afb723e0c93e27e10c81a1fa076b354.jpg,val/Beet Armyworm/Image_103_jpg.rf.deee2e88fc31f34ae76720b44ec45a8c.jpg
+10,none,647,near,True,False,train/Beet Armyworm/Image_29_jpg.rf.c6d967f90f98ffe345e39468a5f90466.jpg,train/Beet Armyworm/Image_58_jpg.rf.e6ecb9ca6e4147ee11e91c08a5a05b8d.jpg
+14,none,208,near,True,False,train/Beet Armyworm/Image_29_jpg.rf.c6d967f90f98ffe345e39468a5f90466.jpg,train/Beet Armyworm/Image_85_jpg.rf.71d67b25fb863e12a26e9cccac2eac8f.jpg
+0,none,878,near,True,False,train/Beet Armyworm/Image_35_jpg.rf.ba7a977e3c9b0390b8c0d7e7e977132e.jpg,train/Beet Armyworm/Image_90_jpg.rf.8f723047f42501ae16a8f698786f4a4e.jpg
+14,none,166,near,True,False,train/Beet Armyworm/Image_58_jpg.rf.e6ecb9ca6e4147ee11e91c08a5a05b8d.jpg,train/Beet Armyworm/Image_85_jpg.rf.71d67b25fb863e12a26e9cccac2eac8f.jpg
+0,none,761,near,True,False,train/Beet Armyworm/Image_71_jpg.rf.8427814e8f59fb6f9f4ab00047eba629.jpg,train/Beet Armyworm/Image_8_jpg.rf.567f61e6738b84109f9ed752f8d90deb.jpg
+0,none,696,near,True,True,train/Beet Armyworm/jpg_0-Copy-2-_jpg.rf.e42262faa05ed2e930ee20d7805ab1d8.jpg,val/Beet Armyworm/jpg_71-Copy-2-Copy_jpg.rf.9ae5775656c14c56d993c28428e9dbfd.jpg
+0,none,628,near,True,False,train/Beet Armyworm/jpg_10-Copy-2-_jpg.rf.2a578b08eb94792f9fd7b7f258069124.jpg,train/Beet Armyworm/jpg_30-Copy-2-_jpg.rf.56050b4f75a003d931ac40d920272ac7.jpg
+0,none,672,near,True,True,train/Beet Armyworm/jpg_12-Copy-3-Copy_jpg.rf.b12bf38151c6464faaec4dba9ea4f335.jpg,val/Beet Armyworm/jpg_52-Copy-2-_jpg.rf.29274c4513c88997df6bb0d3beba3132.jpg
+0,horizontal,669,near,True,True,train/Beet Armyworm/jpg_15-Copy-2-Copy_jpg.rf.b7338745416e611d3d10a8a320f0806a.jpg,test/Beet Armyworm/image-51-_jpg.rf.411f58b1ca9c13f8514dfdd95ca6af9f.jpg
+0,none,520,near,True,True,train/Beet Armyworm/jpg_15-Copy-2-Copy_jpg.rf.b7338745416e611d3d10a8a320f0806a.jpg,test/Beet Armyworm/jpg_63-Copy-2-_jpg.rf.5263b5eb893445dd8f02a670d40b5d71.jpg
+0,none,629,near,True,True,train/Beet Armyworm/jpg_25-Copy-2-_jpg.rf.ddb4c2474733f78c22a72e0d05e133db.jpg,val/Beet Armyworm/jpg_70-Copy-2-Copy_jpg.rf.1647d24f688aaaa40e6d1937562cc18e.jpg
+0,none,624,near,True,True,train/Beet Armyworm/jpg_28-Copy_jpg.rf.39bed478022afd2b0d5a8114f0ad3bff.jpg,test/Beet Armyworm/jpg_62-Copy-2-_jpg.rf.d7439474a2ee1491ec1ebb339565c0c6.jpg
+0,none,640,near,True,False,train/Beet Armyworm/jpg_31-Copy-2-_jpg.rf.ce1c5f5892ec2e7c5a410864a99b6e76.jpg,train/Beet Armyworm/jpg_56-Copy-2-_jpg.rf.66aa16e7ac0df3004a663dd9a843370f.jpg
+0,none,458,near,True,True,train/Beet Armyworm/jpg_33-Copy-2-_jpg.rf.5c83567fabbd9d3e85a6ea978c7d6177.jpg,test/Beet Armyworm/jpg_79-Copy-2-_jpg.rf.45babe0ea7e46c1dda0772b9a6c3179a.jpg
+0,none,675,near,True,False,train/Beet Armyworm/jpg_40-Copy-2-_jpg.rf.3542b937ef589d2a7db2225454b28b28.jpg,train/Beet Armyworm/jpg_86-Copy-2-_jpg.rf.a5e68a305ca82c4e3d5dbcc5097f4d54.jpg
+0,none,623,near,True,True,train/Beet Armyworm/jpg_45-Copy-2-_jpg.rf.853b0f7d0c0424cc30c613c87bd1f4ab.jpg,val/Beet Armyworm/jpg_44-Copy-2-_jpg.rf.4a0011d593092806e981e73f4aceb6c1.jpg
+0,none,606,near,True,False,train/Beet Armyworm/jpg_54-Copy-3-_jpg.rf.ec84b32d2b38152ea99af296c3184aa6.jpg,train/Beet Armyworm/jpg_8-Copy-2-_jpg.rf.dfee9ec71137c17a64a8517ef1267ea3.jpg
+0,none,722,near,True,False,train/Beet Armyworm/jpg_57-Copy-3-_jpg.rf.fd11c5fc859f82957fb0dafeb91da653.jpg,train/Beet Armyworm/jpg_7-Copy-2-_jpg.rf.47204bcbf38d7f1b6ba7189cdd6dbf68.jpg
+0,none,650,near,True,True,train/Beet Armyworm/jpg_85-Copy-2-_jpg.rf.9fb39e1c26ecd33100c76fea83d5f5e1.jpg,test/Beet Armyworm/jpg_72-Copy-2-_jpg.rf.d9e9533f1d874ba68e05cec97dccf708.jpg
+2,none,714,near,True,True,train/Beet Armyworm/jpg_9-Copy-2-_jpg.rf.5e2ab1b67c6d9885405608767c4968f1.jpg,val/Beet Armyworm/jpg_29-Copy-2-_jpg.rf.c24dcd219cbb1cda243e1abb7eeeb835.jpg
+14,none,240,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_129.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_138.jpg
+12,horizontal,84,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_146.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_150.jpg
+12,horizontal,84,near,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_146.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_150.jpg
+14,none,105,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_147.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_149.jpg
+14,none,105,near,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_147.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_149.jpg
+14,none,118,near,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_149.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_147.jpg
+14,horizontal,108,near,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_150.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_146.jpg
+14,none,326,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_17.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_19.jpg
+12,horizontal,120,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_178.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_184.jpg
+12,horizontal,595,near,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_179.jpg,test/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_183.jpg
+14,horizontal,19,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_222.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_226.jpg
+12,horizontal,239,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_237.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_242.jpg
+6,horizontal,238,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_243.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_246.jpg
+14,none,279,near,True,True,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_260.jpg,test/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_266.jpg
+12,horizontal,57,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_287.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_290.jpg
+12,none,77,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_292.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_297.jpg
+10,horizontal,311,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_301.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_304.jpg
+12,none,558,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_305.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_311.jpg
+14,horizontal,115,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_40.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_45.jpg
+10,none,391,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_49.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_58.jpg
+8,none,70,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_50.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_54.jpg
+12,none,211,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_58.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_59.jpg
+14,horizontal,15,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_70.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_71.jpg
+12,none,570,near,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_79.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_83.jpg
+10,none,233,near,False,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_79.jpg,train/Jute Hairy/spilosoma_obliqua_0_1436.jpg
+14,horizontal,423,near,False,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_87.jpg,train/Jute Hairy/spilosoma_obliqua_0_1436.jpg
+0,horizontal,986,near,True,False,train/Cutworm/agrotis_ipsilon--1-_png.rf.0673546707b0d36d256e48844f32bdbb.jpg,train/Cutworm/agrotis_ipsilon--1-_png.rf.7af6eacabe0fa33aff0f1dcb7a3ded80.jpg
+10,vertical,194,near,True,True,train/Cutworm/agrotis_ipsilon--12-_jpg.rf.cbba6d412029a55360b2bcdf0ef4a2c4.jpg,val/Cutworm/1200px-Agrotis_ipsilon-_aardrups_jpg.rf.a0810c9b6ad4aca3a22682844962f15e.jpg
+14,vertical,129,near,True,True,train/Cutworm/agrotis_ipsilon--12-_jpg.rf.cbba6d412029a55360b2bcdf0ef4a2c4.jpg,val/Cutworm/agrotis_ipsilon--22-_jpg.rf.2fb3320ed90e65afc1bba4fe64a57908.jpg
+12,horizontal,113,near,True,True,train/Cutworm/agrotis_ipsilon--12-_jpg.rf.cbba6d412029a55360b2bcdf0ef4a2c4.jpg,val/Cutworm/agrotis_ipsilon--3-_jpg.rf.e904d5a49a709b44a4ef46d9dd96f454.jpg
+0,horizontal,980,near,True,True,train/Cutworm/agrotis_ipsilon--12-_jpg.rf.cbba6d412029a55360b2bcdf0ef4a2c4.jpg,test/Cutworm/agrotis_ipsilon--12-_jpg.rf.48eac989eb27dbb77d95e619786eb954.jpg
+2,vertical,473,near,True,False,train/Cutworm/agrotis_ipsilon--13-_jpg.rf.8000e0e2926160eeacbb793ba3bb4dd9.jpg,train/Cutworm/Imagem5_jpg.rf.2a125cf0a59d1f69c910cf231dba563f.jpg
+2,none,473,near,True,False,train/Cutworm/agrotis_ipsilon--13-_jpg.rf.8000e0e2926160eeacbb793ba3bb4dd9.jpg,train/Cutworm/Imagem5_jpg.rf.5c8e3d54ec317ab2057032b7b158b7dc.jpg
+0,vertical,1000,near,True,True,train/Cutworm/agrotis_ipsilon--13-_jpg.rf.8000e0e2926160eeacbb793ba3bb4dd9.jpg,test/Cutworm/agrotis_ipsilon--13-_jpg.rf.3a88eab23c2f12336ccbdb67cf27cbf7.jpg
+0,horizontal,988,near,True,True,train/Cutworm/agrotis_ipsilon--13-_jpg.rf.b2a16b48aa5e5da7e8dfca6068bac61c.jpg,test/Cutworm/agrotis_ipsilon--13-_jpg.rf.09971d2e5c9d397a1db445b4531ef13d.jpg
+0,horizontal,988,near,True,False,train/Cutworm/agrotis_ipsilon--17-_jpg.rf.887a1f248aeb93d2e7cb759ce97b8d54.jpg,train/Cutworm/agrotis_ipsilon--17-_jpg.rf.96b2b8bfaa46e1490f855aabaf2652cd.jpg
+0,horizontal,981,near,True,True,train/Cutworm/agrotis_ipsilon--23-_jpg.rf.31328aea62f57b39060bfef9a21c9562.jpg,test/Cutworm/agrotis_ipsilon--23-_jpg.rf.0faac51f2fb666cbb6e70794449dd982.jpg
+0,horizontal,993,near,True,False,train/Cutworm/agrotis_ipsilon--26-_jpg.rf.863258de45536cb7949b4eae4ca67608.jpg,train/Cutworm/agrotis_ipsilon--26-_jpg.rf.b9a7b30cc3032e2b21918a6e1ce7633e.jpg
+0,horizontal,987,near,True,False,train/Cutworm/agrotis_ipsilon--28-_jpg.rf.61ccf093e4239c7aa5fa0875338565c9.jpg,train/Cutworm/agrotis_ipsilon--28-_jpg.rf.9d2bc63f904e1314120b23f4d23bb9b8.jpg
+14,none,19,near,True,False,train/Cutworm/agrotis_ipsilon--5-_jpg.rf.706e0220494184791077755903675b17.jpg,train/Cutworm/cutworm0_0_9323.jpg
+0,vertical,1000,near,True,True,train/Cutworm/agrotis_ipsilon--5-_jpg.rf.706e0220494184791077755903675b17.jpg,test/Cutworm/agrotis_ipsilon--5-_jpg.rf.d2f12bef82638d5f68533cd662128e41.jpg
+12,vertical,140,near,True,False,train/Cutworm/agrotis_ipsilon--7-_jpg.rf.2a95cb94a037668b9f5a9b0d437587ef.jpg,train/Cutworm/cutworm_0_4285.jpg
+14,horizontal,211,near,True,True,train/Cutworm/agrotis_ipsilon--7-_jpg.rf.2a95cb94a037668b9f5a9b0d437587ef.jpg,test/Cutworm/agrotis_ipsilon--5-_jpg.rf.d2f12bef82638d5f68533cd662128e41.jpg
+14,none,97,near,True,False,train/Cutworm/agrotis_ipsilon--7-_jpg.rf.cad0097c94dd84bb4528f45fb4e6f8c8.jpg,train/Cutworm/cutworm0_0_2731.jpg
+0,vertical,1000,near,True,False,train/Cutworm/agrotis_ipsilon--8-_jpg.rf.15e5662984c6d79e16b63f594194c231.jpg,train/Cutworm/agrotis_ipsilon--8-_jpg.rf.9744fb1e5fdd5844a5c7c2461881039b.jpg
+0,horizontal,977,near,True,False,train/Cutworm/agrotis_ipsilon--9-_jpg.rf.d42de60a3a39373a231e01269730415f.jpg,train/Cutworm/agrotis_ipsilon--9-_jpg.rf.e842986b4140bc21033d611ffecd2f34.jpg
+0,horizontal,996,near,True,False,train/Cutworm/black_cutworm2_jpg.rf.4b9f9f19629bbd4009cd12fcf39f52a5.jpg,train/Cutworm/black_cutworm2_jpg.rf.836d23b951d1a4beaa21a149624cd504.jpg
+0,horizontal,982,near,True,False,train/Cutworm/blackcutworm022_jpg.rf.1bb1daf8c278f23fecc6e1f176a612c5.jpg,train/Cutworm/blackcutworm022_jpg.rf.beff42478138c227751f095b71aa072b.jpg
+8,horizontal,555,near,True,False,train/Cutworm/cutworm0_0_1555.jpg,train/Cutworm/cutworm0_0_1568.jpg
+12,none,204,near,True,False,train/Cutworm/cutworm0_0_2731.jpg,train/Cutworm/cutworm0_0_9323.jpg
+12,none,478,near,True,False,train/Cutworm/cutworm0_0_340.jpg,train/Cutworm/cutworm_0_8967.jpg
+14,none,89,near,True,False,train/Cutworm/cutworm0_0_3743.jpg,train/Cutworm/cutworm0_0_5516.jpg
+14,horizontal,167,near,True,False,train/Cutworm/cutworm0_0_4926.jpg,train/Cutworm/cutworm_0_4045.jpg
+8,horizontal,129,near,True,False,train/Cutworm/cutworm0_0_5730.jpg,train/Cutworm/cutworm0_0_6450.jpg
+14,none,244,near,True,False,train/Cutworm/cutworm0_0_5837.jpg,train/Cutworm/cutworm_0_7534.jpg
+6,none,516,near,True,False,train/Cutworm/cutworm0_0_608.jpg,train/Cutworm/cutworm_0_5855.jpg
+10,horizontal,454,near,True,True,train/Cutworm/cutworm0_0_6255.jpg,test/Cutworm/cutworm_0_2587.jpg
+14,horizontal,245,near,True,False,train/Cutworm/cutworm0_0_7165.jpg,train/Cutworm/cutworm0_0_8353.jpg
+14,horizontal,410,near,True,False,train/Cutworm/cutworm0_0_7818.jpg,train/Cutworm/cutworm_0_3646.jpg
+14,none,380,near,True,False,train/Cutworm/cutworm0_0_8187.jpg,train/Cutworm/cutworm_0_2036.jpg
+12,horizontal,55,near,True,False,train/Cutworm/cutworm0_0_9323.jpg,train/Cutworm/cutworm_0_4285.jpg
+14,vertical,21,near,True,True,train/Cutworm/cutworm0_0_9323.jpg,test/Cutworm/agrotis_ipsilon--5-_jpg.rf.d2f12bef82638d5f68533cd662128e41.jpg
+14,horizontal,281,near,True,False,train/Cutworm/cutworm_0_5002.jpg,train/Cutworm/cutworm_0_7899.jpg
+0,horizontal,986,near,True,False,train/Cutworm/cutworm_1024x716px_jpg.rf.6596ba8ad8592595f47f358f0db99339.jpg,train/Cutworm/cutworm_1024x716px_jpg.rf.eec1d58577c723a8394f01408fb7d97c.jpg
+0,vertical,1000,near,True,False,train/Cutworm/Imagem5_jpg.rf.2a125cf0a59d1f69c910cf231dba563f.jpg,train/Cutworm/Imagem5_jpg.rf.5c8e3d54ec317ab2057032b7b158b7dc.jpg
+4,none,480,near,True,True,train/Cutworm/Imagem5_jpg.rf.2a125cf0a59d1f69c910cf231dba563f.jpg,test/Cutworm/agrotis_ipsilon--13-_jpg.rf.3a88eab23c2f12336ccbdb67cf27cbf7.jpg
+2,vertical,475,near,True,True,train/Cutworm/Imagem5_jpg.rf.5c8e3d54ec317ab2057032b7b158b7dc.jpg,test/Cutworm/agrotis_ipsilon--13-_jpg.rf.3a88eab23c2f12336ccbdb67cf27cbf7.jpg
+0,vertical,1000,near,True,False,train/Cutworm/rust-3_jpg.rf.476bcd9c45d936edd4bf522ffe00324a.jpg,train/Cutworm/rust-3_jpg.rf.cc8024718434e09f418631af5402344a.jpg
+0,horizontal,985,near,True,False,train/Cutworm/The-black-cutworm-Agrotis-ipsilon-is-one-of-several-cutworm-species-that-may-damage_png.rf.07aa64b862baf250b1805a763d8e3257.jpg,train/Cutworm/The-black-cutworm-Agrotis-ipsilon-is-one-of-several-cutworm-species-that-may-damage_png.rf.c0b451f3f649d6609adfbd60f1af9773.jpg
+2,none,15,near,True,False,train/Field Cricket/18_jpg.rf.ddfb23fb06b8a9c8b28138ea6e6d56f9.jpg,train/Field Cricket/20_jpg.rf.0f7dd30c9a015a8cc74a9e28fd9a7c88.jpg
+6,none,219,near,True,True,train/Field Cricket/18_jpg.rf.ddfb23fb06b8a9c8b28138ea6e6d56f9.jpg,val/Field Cricket/19_jpg.rf.976eb2c66890c2f97a4a48b36128305f.jpg
+6,none,20,near,True,True,train/Field Cricket/20_jpg.rf.0f7dd30c9a015a8cc74a9e28fd9a7c88.jpg,val/Field Cricket/19_jpg.rf.976eb2c66890c2f97a4a48b36128305f.jpg
+14,none,234,near,True,True,train/Field Cricket/27_jpg.rf.697a963b2d4fe1044c048ed5a61e80d6.jpg,val/Field Cricket/26_jpg.rf.7ec278c3a9dd16ad732a318ae2d5c8b4.jpg
+10,none,22,near,True,True,train/Field Cricket/30_jpg.rf.3b3888b96a620e72f8b75ff6bad018a0.jpg,val/Field Cricket/25_jpg.rf.ead1bf7c477da646fe8a4b6f4e01be33.jpg
+2,none,50,near,True,False,train/Field Cricket/31_jpg.rf.96dd1db33a0356e673bbe0d3ba72fc17.jpg,train/Field Cricket/32_jpg.rf.2cb675e4525f8631f0a7e485d236b361.jpg
+4,none,20,near,True,True,train/Field Cricket/33_jpg.rf.07ef0fe436008ee15cb6cbc7c0ebae25.jpg,val/Field Cricket/19_jpg.rf.976eb2c66890c2f97a4a48b36128305f.jpg
+2,none,188,near,True,False,train/Field Cricket/36_jpg.rf.ad717bdd6129d2e26ab65c21949e5765.jpg,train/Field Cricket/37_jpg.rf.c1f611cca05dd8afdb7d82f47cca3f50.jpg
+4,none,161,near,True,True,train/Field Cricket/7_jpg.rf.c54e3f6a2f155354e334061a9fdc54a6.jpg,val/Field Cricket/6_jpg.rf.220aa118d1cb17a7e8ff8a5206c98df9.jpg
+10,none,562,near,True,False,train/Field Cricket/field_cricket_0_1123.jpg,train/Field Cricket/field_cricket_0_4316.jpg
+10,horizontal,436,near,True,False,train/Field Cricket/field_cricket_0_1361.jpg,train/Field Cricket/field_cricket_0_723.jpg
+12,horizontal,150,near,True,False,train/Field Cricket/field_cricket_0_1396.jpg,train/Field Cricket/field_cricket_0_272.jpg
+14,horizontal,86,near,True,False,train/Field Cricket/field_cricket_0_1450.jpg,train/Field Cricket/field_cricket_0_393.jpg
+8,none,60,near,True,False,train/Field Cricket/field_cricket_0_1624.jpg,train/Field Cricket/field_cricket_0_6478.jpg
+14,horizontal,447,near,True,False,train/Field Cricket/field_cricket_0_1624.jpg,train/Field Cricket/field_cricket_0_9882.jpg
+10,none,291,near,True,False,train/Field Cricket/field_cricket_0_1732.jpg,train/Field Cricket/field_cricket_0_4355.jpg
+8,none,79,near,True,False,train/Field Cricket/field_cricket_0_1732.jpg,train/Field Cricket/field_cricket_0_7986.jpg
+14,horizontal,57,near,True,False,train/Field Cricket/field_cricket_0_1810.jpg,train/Field Cricket/field_cricket_0_2582.jpg
+6,horizontal,485,near,True,False,train/Field Cricket/field_cricket_0_1810.jpg,train/Field Cricket/field_cricket_0_2639.jpg
+14,horizontal,258,near,True,False,train/Field Cricket/field_cricket_0_1824.jpg,train/Field Cricket/field_cricket_0_2318.jpg
+8,none,463,near,True,False,train/Field Cricket/field_cricket_0_2149.jpg,train/Field Cricket/field_cricket_0_9105.jpg
+12,horizontal,252,near,True,False,train/Field Cricket/field_cricket_0_2270.jpg,train/Field Cricket/field_cricket_0_7478.jpg
+14,horizontal,80,near,True,False,train/Field Cricket/field_cricket_0_2270.jpg,train/Field Cricket/field_cricket_0_9382.jpg
+14,horizontal,71,near,True,False,train/Field Cricket/field_cricket_0_235.jpg,train/Field Cricket/field_cricket_0_9382.jpg
+14,vertical,193,near,True,False,train/Field Cricket/field_cricket_0_2414.jpg,train/Field Cricket/field_cricket_0_4316.jpg
+14,none,153,near,True,False,train/Field Cricket/field_cricket_0_2582.jpg,train/Field Cricket/field_cricket_0_2639.jpg
+6,horizontal,314,near,True,False,train/Field Cricket/field_cricket_0_3157.jpg,train/Field Cricket/field_cricket_0_8654.jpg
+14,none,294,near,True,False,train/Field Cricket/field_cricket_0_3278.jpg,train/Field Cricket/field_cricket_0_7744.jpg
+14,vertical,343,near,True,True,train/Field Cricket/field_cricket_0_3424.jpg,test/Field Cricket/field_cricket_0_9251.jpg
+14,none,113,near,True,False,train/Field Cricket/field_cricket_0_3836.jpg,train/Field Cricket/field_cricket_0_6975.jpg
+14,none,260,near,True,False,train/Field Cricket/field_cricket_0_3914.jpg,train/Field Cricket/field_cricket_0_4362.jpg
+10,none,32,near,True,False,train/Field Cricket/field_cricket_0_393.jpg,train/Field Cricket/field_cricket_0_579.jpg
+12,horizontal,82,near,True,False,train/Field Cricket/field_cricket_0_393.jpg,train/Field Cricket/field_cricket_0_7403.jpg
+8,horizontal,434,near,True,True,train/Field Cricket/field_cricket_0_4020.jpg,test/Field Cricket/field_cricket_0_9957.jpg
+14,horizontal,619,near,True,False,train/Field Cricket/field_cricket_0_4166.jpg,train/Field Cricket/field_cricket_0_6665.jpg
+14,none,565,near,True,False,train/Field Cricket/field_cricket_0_4339.jpg,train/Field Cricket/field_cricket_0_9874.jpg
+12,none,89,near,True,False,train/Field Cricket/field_cricket_0_4355.jpg,train/Field Cricket/field_cricket_0_7986.jpg
+6,horizontal,524,near,True,False,train/Field Cricket/field_cricket_0_4357.jpg,train/Field Cricket/field_cricket_0_6899.jpg
+12,horizontal,275,near,True,False,train/Field Cricket/field_cricket_0_4677.jpg,train/Field Cricket/field_cricket_0_934.jpg
+14,horizontal,337,near,True,False,train/Field Cricket/field_cricket_0_4897.jpg,train/Field Cricket/field_cricket_0_579.jpg
+14,none,125,near,True,False,train/Field Cricket/field_cricket_0_4897.jpg,train/Field Cricket/field_cricket_0_7403.jpg
+12,horizontal,236,near,True,False,train/Field Cricket/field_cricket_0_579.jpg,train/Field Cricket/field_cricket_0_7403.jpg
+14,none,507,near,True,False,train/Field Cricket/field_cricket_0_6058.jpg,train/Field Cricket/field_cricket_0_6802.jpg
+10,horizontal,197,near,True,False,train/Field Cricket/field_cricket_0_6082.jpg,train/Field Cricket/field_cricket_0_753.jpg
+12,none,83,near,True,False,train/Field Cricket/field_cricket_0_6323.jpg,train/Field Cricket/field_cricket_0_7631.jpg
+12,horizontal,254,near,True,True,train/Field Cricket/field_cricket_0_6530.jpg,test/Field Cricket/field_cricket_0_8968.jpg
+14,none,38,near,True,False,train/Field Cricket/field_cricket_0_681.jpg,train/Field Cricket/field_cricket_0_9676.jpg
+10,horizontal,403,near,True,False,train/Field Cricket/field_cricket_0_6839.jpg,train/Field Cricket/field_cricket_0_7188.jpg
+14,horizontal,40,near,True,False,train/Field Cricket/field_cricket_0_723.jpg,train/Field Cricket/field_cricket_0_8433.jpg
+6,horizontal,573,near,True,False,train/Field Cricket/field_cricket_0_7347.jpg,train/Field Cricket/field_cricket_0_8157.jpg
+14,none,46,near,True,False,train/Field Cricket/field_cricket_0_7478.jpg,train/Field Cricket/field_cricket_0_9382.jpg
+12,none,589,near,True,False,train/Field Cricket/field_cricket_0_754.jpg,train/Field Cricket/field_cricket_0_7876.jpg
+14,none,320,near,True,False,train/Field Cricket/field_cricket_0_7792.jpg,train/Field Cricket/field_cricket_0_8389.jpg
+12,horizontal,374,near,True,False,train/Field Cricket/field_cricket_0_7908.jpg,train/Field Cricket/field_cricket_0_9091.jpg
+12,none,276,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_0.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_86.jpg
+14,none,318,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_10.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_85.jpg
+12,none,267,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_100.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_167.jpg
+12,none,264,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_12.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_16.jpg
+14,none,408,near,True,True,train/Jute Aphid/Aug_Aphis gossypii Glover_153.jpg,test/Jute Aphid/Aug_Aphis gossypii Glover_144.jpg
+12,horizontal,452,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_174.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_175.jpg
+14,horizontal,135,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_187.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_188.jpg
+12,none,70,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_19.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_194.jpg
+2,none,599,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_198.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_199.jpg
+14,horizontal,432,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_282.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_290.jpg
+12,vertical,109,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_291.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_297.jpg
+14,none,155,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_292.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_298.jpg
+14,horizontal,287,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_297.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_300.jpg
+12,none,460,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_323.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_329.jpg
+8,none,201,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_333.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_340.jpg
+12,none,191,near,False,False,train/Jute Aphid/Aug_Aphis gossypii Glover_350.jpg,train/Yellow Mite/yellow_mite_0_3110.jpg
+12,horizontal,199,near,False,False,train/Jute Aphid/Aug_Aphis gossypii Glover_350.jpg,train/Yellow Mite/yellow_mite_0_8916.jpg
+10,none,499,near,False,False,train/Jute Aphid/Aug_Aphis gossypii Glover_351.jpg,train/Yellow Mite/yellow_mite_0_5652.jpg
+10,horizontal,546,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_4.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_7.jpg
+10,horizontal,279,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_65.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_66.jpg
+14,horizontal,202,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_8.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_89.jpg
+10,none,497,near,True,False,train/Jute Aphid/Aug_Aphis gossypii Glover_94.jpg,train/Jute Aphid/Aug_Aphis gossypii Glover_98.jpg
+0,none,700,near,True,True,"train/Jute Hairy/1280px-Jute_hairy_caterpillar,_Spilosoma_obliqua,_Tuvvur,_Kerala.jpg",val/Jute Hairy/images.jpg
+14,horizontal,517,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_1055.jpg,train/Jute Hairy/spilosoma_obliqua_0_1325.jpg
+14,horizontal,208,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_1663.jpg,train/Jute Hairy/spilosoma_obliqua_0_4370.jpg
+14,none,433,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_198.jpg,train/Jute Hairy/spilosoma_obliqua_0_8972.jpg
+14,none,102,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_2232.jpg,train/Jute Hairy/spilosoma_obliqua_0_7183.jpg
+10,horizontal,68,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_226.jpg,train/Jute Hairy/spilosoma_obliqua_0_8634.jpg
+8,horizontal,284,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_2371.jpg,train/Jute Hairy/spilosoma_obliqua_0_6619.jpg
+12,none,195,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_3267.jpg,train/Jute Hairy/spilosoma_obliqua_0_9283.jpg
+14,horizontal,212,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_3427.jpg,train/Jute Hairy/spilosoma_obliqua_0_9830.jpg
+8,horizontal,130,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_3696.jpg,train/Jute Hairy/spilosoma_obliqua_0_6913.jpg
+12,horizontal,263,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_3752.jpg,train/Jute Hairy/spilosoma_obliqua_0_3951.jpg
+14,none,147,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_4730.jpg,train/Jute Hairy/spilosoma_obliqua_0_8433.jpg
+10,horizontal,289,near,True,True,train/Jute Hairy/spilosoma_obliqua_0_5379.jpg,test/Jute Hairy/spilosoma_obliqua_0_8778.jpg
+12,none,31,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_5710.jpg,train/Jute Hairy/spilosoma_obliqua_0_6110.jpg
+10,none,162,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_5712.jpg,train/Jute Hairy/spilosoma_obliqua_0_8600.jpg
+12,horizontal,170,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_6496.jpg,train/Jute Hairy/spilosoma_obliqua_0_8090.jpg
+10,none,17,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_6809.jpg,train/Jute Hairy/spilosoma_obliqua_0_9601.jpg
+14,none,63,near,True,True,train/Jute Hairy/spilosoma_obliqua_0_6908.jpg,test/Jute Hairy/spilosoma_obliqua_0_8892.jpg
+12,horizontal,480,near,True,False,train/Jute Hairy/spilosoma_obliqua_0_8028.jpg,train/Jute Hairy/spilosoma_obliqua_0_9788.jpg
+0,none,123,near,True,True,train/Jute Red Mite/13784_jpg.rf.3dc99831f8bbce4ed0569f6c44dbabcf.jpg,val/Jute Red Mite/thumb.jpg
+0,none,421,near,True,True,train/Jute Red Mite/13798_jpg.rf.93c7851bb8b4e24aec38f8a488d40d7a.jpg,val/Jute Red Mite/thumb (2).jpg
+12,none,174,near,True,False,train/Jute Red Mite/13808_jpg.rf.72752192d432b63a95da7e78fe62d97a.jpg,train/Jute Red Mite/13892_jpg.rf.abff3dca6d46e399438b64b259a93414.jpg
+10,none,353,near,True,False,train/Jute Red Mite/13819_jpg.rf.320bbe75927d521883d80b7133d5d90e.jpg,train/Jute Red Mite/E0Z0U0H040DRLQJRMQ1RLQVRYKNRYKOQ409R3KOQM0JQ70ARFKVRI0TQM0BRM0BRFK9R50FQZQJRU0Q060OR6000MQ_jpg.rf.d5626b679dd0d2f10635af64aae2a476.jpg
+6,none,185,near,True,False,train/Jute Red Mite/13966_jpg.rf.2d3df60b78fcc61930513b103b497bd9.jpg,train/Jute Red Mite/14016_jpg.rf.a420b53cdd42063d166d6b253fe7b950.jpg
+2,none,927,near,True,False,train/Jute Red Mite/14050_jpg.rf.7db2a78e460a7eff85aca2c8700ceb59.jpg,train/Jute Red Mite/14117_jpg.rf.13119e64c742de09a56e3196cfa5bdb2.jpg
+0,none,139,near,True,True,train/Jute Red Mite/14172_jpg.rf.e0f368a4dde1983eaca4b5c0cb1de227.jpg,val/Jute Red Mite/thumb (1).jpg
+14,none,70,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_102.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_104.jpg
+14,horizontal,25,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_109.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_144.jpg
+14,horizontal,88,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_120.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_122.jpg
+12,none,204,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_14.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_3.jpg
+14,none,267,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_159.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_164.jpg
+14,horizontal,239,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_161.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_165.jpg
+14,horizontal,16,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_18.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_30.jpg
+14,horizontal,40,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_190.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_195.jpg
+14,none,371,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_190.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_198.jpg
+14,horizontal,38,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_195.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_198.jpg
+12,horizontal,270,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_199.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_201.jpg
+14,none,130,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_2.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_3.jpg
+14,none,376,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_2.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_8.jpg
+12,none,327,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_206.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_213.jpg
+4,none,572,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_207.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_208.jpg
+14,horizontal,255,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_228.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_233.jpg
+14,horizontal,266,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_257.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_265.jpg
+12,horizontal,311,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_268.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_279.jpg
+14,horizontal,404,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_268.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_36.jpg
+12,horizontal,319,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_275.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_46.jpg
+14,none,399,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_276.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_46.jpg
+10,horizontal,463,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_293.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_299.jpg
+8,none,335,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_321.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_328.jpg
+12,horizontal,35,near,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_55.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_60.jpg
+0,none,899,near,True,False,train/Jute Red Mite/istockphoto-1340122297-612x612.jpg,train/Jute Red Mite/istockphoto-1340122297-612x612_jpg.rf.60cda146c953806f29966e6f40db1cf6.jpg
+0,none,421,near,True,True,train/Jute Red Mite/red98_jpg.rf.658bb0b203b0f7909bf433d3749d9e29.jpg,val/Jute Red Mite/thumb (2).jpg
+0,none,960,near,True,True,train/Jute Red Mite/spider-mite_jpg.rf.9b8418d64fdbb0455159dd71557f1f57.jpg,val/Jute Red Mite/spider-mite.jpg
+10,horizontal,485,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_104.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_96.jpg
+12,horizontal,567,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_112.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_118.jpg
+10,none,107,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_112.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_121.jpg
+14,horizontal,77,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_117.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_118.jpg
+12,horizontal,653,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_126.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_131.jpg
+14,none,289,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_180.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_183.jpg
+12,none,380,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_198.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_200.jpg
+14,horizontal,18,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_20.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_26.jpg
+14,horizontal,31,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_219.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_226.jpg
+12,none,523,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_233.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_240.jpg
+6,horizontal,615,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_249.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_257.jpg
+14,none,227,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_26.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_27.jpg
+12,none,28,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_278.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_279.jpg
+14,horizontal,288,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_324.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_325.jpg
+10,horizontal,36,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_329.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_337.jpg
+10,none,43,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_330.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_338.jpg
+14,horizontal,503,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_332.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_340.jpg
+14,horizontal,35,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_336.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_341.jpg
+10,horizontal,83,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_338.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_343.jpg
+14,horizontal,207,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_352.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_359.jpg
+14,none,254,near,True,True,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_364.jpg,test/Jute Semilooper/Aug_Anomis Sabulifera Guenee_375.jpg
+14,none,142,near,True,True,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_365.jpg,test/Jute Semilooper/Aug_Anomis Sabulifera Guenee_372.jpg
+12,none,489,near,True,True,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_369.jpg,test/Jute Semilooper/Aug_Anomis Sabulifera Guenee_375.jpg
+14,none,342,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_47.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_50.jpg
+12,none,21,near,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_78.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_90.jpg
+14,none,93,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_100.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_108.jpg
+10,horizontal,353,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_107.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_96.jpg
+14,none,242,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_107.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_99.jpg
+14,none,20,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_108.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_176.jpg
+10,horizontal,181,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_112.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_119.jpg
+6,horizontal,310,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_158.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_165.jpg
+14,horizontal,152,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_158.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_168.jpg
+14,horizontal,155,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_160.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_170.jpg
+14,none,196,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_165.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_168.jpg
+8,none,72,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_178.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_180.jpg
+10,none,435,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_18.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_21.jpg
+14,none,211,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_20.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_26.jpg
+10,none,187,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_226.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_233.jpg
+10,none,174,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_228.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_236.jpg
+14,horizontal,86,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_285.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_287.jpg
+8,vertical,109,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_288.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_291.jpg
+8,none,488,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_56.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_61.jpg
+14,none,282,near,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_91.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_94.jpg
+0,none,789,near,True,True,train/Jute Stem Girdler/download (1).jpg,val/Jute Stem Girdler/images (1).jpg
+10,none,250,near,True,False,train/Jute Stem Weevil/download (2).jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_3871.jpg
+10,none,250,near,True,True,train/Jute Stem Weevil/download (2).jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_3871.jpg
+12,none,112,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1002.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_9308.jpg
+12,none,112,near,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_1002.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_9308.jpg
+14,horizontal,400,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_110.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_3118.jpg
+14,none,314,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_110.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4587.jpg
+14,horizontal,102,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1123.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_1520.jpg
+14,none,343,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1123.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_163.jpg
+14,horizontal,167,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1123.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6559.jpg
+14,none,267,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1288.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_5017.jpg
+8,none,464,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1314.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_1592.jpg
+12,horizontal,221,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1380.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_224.jpg
+12,none,116,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1380.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_2267.jpg
+14,none,269,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1411.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_7824.jpg
+14,none,269,near,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_1411.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_7824.jpg
+14,horizontal,131,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1512.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_1594.jpg
+8,none,239,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1520.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6559.jpg
+12,none,432,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1574.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_7272.jpg
+14,none,19,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1673.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6244.jpg
+14,none,18,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_1760.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_7196.jpg
+8,none,221,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_19.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6159.jpg
+14,horizontal,420,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2043.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_5597.jpg
+14,horizontal,86,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2185.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_3190.jpg
+14,horizontal,166,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2185.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4250.jpg
+12,horizontal,35,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_224.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_2267.jpg
+10,horizontal,387,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_224.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4052.jpg
+12,none,21,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2267.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4052.jpg
+14,horizontal,246,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2312.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_2364.jpg
+14,horizontal,246,near,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_2312.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_2364.jpg
+8,none,592,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2342.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4019.jpg
+12,horizontal,25,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2392.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_8377.jpg
+12,horizontal,478,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_2658.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_7608.jpg
+14,horizontal,339,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_3018.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_3127.jpg
+12,none,116,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_303.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_37.jpg
+14,none,257,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_3130.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_9056.jpg
+14,none,299,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_3143.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4185.jpg
+14,horizontal,135,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_3198.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_7804.jpg
+14,none,317,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_3514.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6159.jpg
+14,none,16,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_3729.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_3824.jpg
+14,horizontal,270,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_381.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4036.jpg
+14,none,410,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_4013.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_4071.jpg
+14,none,410,near,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_4013.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_4071.jpg
+14,horizontal,528,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_4036.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6653.jpg
+14,none,458,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_4044.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6702.jpg
+14,none,256,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_5346.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_5804.jpg
+10,horizontal,250,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_5346.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_9138.jpg
+12,horizontal,375,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_5462.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_916.jpg
+10,horizontal,548,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_5804.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_9138.jpg
+14,none,263,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_5804.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_9943.jpg
+14,none,401,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_6375.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_6502.jpg
+14,none,48,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_6623.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_7127.jpg
+14,horizontal,61,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_6623.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_8688.jpg
+14,horizontal,258,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_6623.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_8955.jpg
+6,horizontal,510,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_7127.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_8688.jpg
+10,horizontal,100,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_7127.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_8955.jpg
+12,horizontal,125,near,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_7804.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_3198.jpg
+6,none,489,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_8197.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_8363.jpg
+6,none,489,near,True,True,train/Jute Stem Weevil/Jute_stem_weevil_0_8197.jpg,val/Jute Stem Weevil/Jute_stem_weevil_0_8363.jpg
+14,horizontal,396,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_8337.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_9280.jpg
+8,none,87,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_8688.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_8955.jpg
+14,none,394,near,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_9037.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_9943.jpg
+4,none,373,near,True,False,train/Jute Stem Weevil/Weevil-340-_jpg.rf.ea022c7290a659b3bff18ac29b36c812.jpg,train/Jute Stem Weevil/Weevil-341-_jpg.rf.9e0605231faa42c283de5347a4a37e89.jpg
+0,none,732,near,True,True,train/Jute Stem Weevil/Weevil-469-_jpg.rf.7ffaa976b0a1919b8729c7aee3f01142.jpg,val/Jute Stem Weevil/Weevil-468-_jpg.rf.20f279122e86167fa611b95fbffd3c65.jpg
+10,horizontal,464,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_105.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_95.jpg
+14,horizontal,318,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_107.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_99.jpg
+10,none,91,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_115.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_123.jpg
+12,horizontal,207,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_149.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_156.jpg
+6,none,413,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_166.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_172.jpg
+12,none,285,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_175.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_188.jpg
+8,none,180,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_185.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_187.jpg
+14,horizontal,334,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_215.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_217.jpg
+14,none,399,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_226.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_237.jpg
+14,none,209,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_245.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_247.jpg
+14,horizontal,194,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_26.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_29.jpg
+14,none,305,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_280.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_283.jpg
+12,none,497,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_39.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_44.jpg
+14,none,100,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_43.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_47.jpg
+8,horizontal,421,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_49.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_53.jpg
+10,none,196,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_5.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_9.jpg
+10,horizontal,277,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_50.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_61.jpg
+12,none,393,near,True,True,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_54.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_262.jpg
+10,none,220,near,True,True,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_57.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_254.jpg
+12,none,211,near,True,True,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_58.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_254.jpg
+10,horizontal,301,near,True,True,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_59.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_264.jpg
+14,none,287,near,True,True,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_61.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_253.jpg
+8,none,26,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_63.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_73.jpg
+14,horizontal,31,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_63.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_75.jpg
+14,horizontal,18,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_63.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_77.jpg
+12,horizontal,334,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_67.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_73.jpg
+8,none,488,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_67.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_75.jpg
+10,horizontal,285,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_73.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_75.jpg
+14,horizontal,356,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_73.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_77.jpg
+12,horizontal,134,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_79.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_83.jpg
+14,horizontal,501,near,True,False,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_81.jpg,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_86.jpg
+0,none,870,near,True,True,train/Leaf Beetle/images.jpg,val/Leaf Beetle/images (1).jpg
+0,none,930,near,True,False,train/Leaf Beetle/large.jpeg,train/Leaf Beetle/original (2).jpeg
+0,none,930,near,True,False,train/Leaf Beetle/large.jpeg,train/Leaf Beetle/original (3).jpeg
+0,none,930,near,True,False,train/Leaf Beetle/large.jpeg,train/Leaf Beetle/original (4).jpeg
+14,horizontal,240,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_1.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_276.jpg
+14,none,292,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_10.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_4.jpg
+14,none,280,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_101.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_340.jpg
+8,horizontal,302,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_101.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_343.jpg
+8,none,355,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_119.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_120.jpg
+12,horizontal,390,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_122.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_124.jpg
+10,horizontal,228,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_211.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_217.jpg
+14,none,212,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_223.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_227.jpg
+8,none,450,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_282.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_85.jpg
+14,none,198,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_3.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_4.jpg
+12,horizontal,189,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_4.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_7.jpg
+14,none,317,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_64.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_72.jpg
+8,horizontal,233,near,True,False,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_80.jpg,train/Mealybug/Aug_Ferisia pseudococcus (Signoret)_84.jpg
+12,vertical,38,near,True,True,train/Mealybug/Mealy-Bug_342_png.rf.dad6f5302437969172a2590c0ff722ea.jpg,test/Mealybug/Mealy-Bug_436_png.rf.8c3d896f48971680abeef15019fd07cb.jpg
+6,vertical,511,near,True,False,train/Mealybug/Mealy-Bug_344_png.rf.ff09dbef304590c33f0b9a8dba3e6441.jpg,train/Mealybug/Mealy-Bug_368_png.rf.c57ea458776cc67cde6db513bb8d9c6f.jpg
+10,vertical,808,near,True,False,train/Mealybug/Mealy-Bug_360_png.rf.6760385b13060141af9fbca64dd08eac.jpg,train/Mealybug/Mealy-Bug_718_png.rf.ecc54e1cc7c6983e98ee6a4f42d96fa9.jpg
+0,horizontal,733,near,True,True,train/Mealybug/Mealy-Bug_360_png.rf.6760385b13060141af9fbca64dd08eac.jpg,test/Mealybug/Mealy-Bug_436_png.rf.8c3d896f48971680abeef15019fd07cb.jpg
+4,vertical,337,near,True,False,train/Mealybug/Mealy-Bug_363_png.rf.1a716fad9c912c5dd9405052a55d1d22.jpg,train/Mealybug/Mealy-Bug_466_png.rf.a381fe1c0bd4a44e5af992643d6b6689.jpg
+6,none,123,near,True,False,train/Mealybug/Mealy-Bug_363_png.rf.1a716fad9c912c5dd9405052a55d1d22.jpg,train/Mealybug/Mealy-Bug_605_png.rf.039f02d3e11b1e698c640965d259cdc8.jpg
+2,none,162,near,True,False,train/Mealybug/Mealy-Bug_363_png.rf.1a716fad9c912c5dd9405052a55d1d22.jpg,train/Mealybug/Mealy-Bug_608_png.rf.0576e5b3bfa339c3fea80725acd745c5.jpg
+0,vertical,354,near,True,False,train/Mealybug/Mealy-Bug_363_png.rf.1a716fad9c912c5dd9405052a55d1d22.jpg,train/Mealybug/Mealy-Bug_758_png.rf.b89368783792dc134484afe03e846d26.jpg
+6,none,70,near,True,False,train/Mealybug/Mealy-Bug_366_png.rf.e3a25e4d4074eca2338edc343558cd2d.jpg,train/Mealybug/Mealy-Bug_389_png.rf.9d3258c146e7bdb00c2fcb7d342c1739.jpg
+0,horizontal,367,near,True,True,train/Mealybug/Mealy-Bug_366_png.rf.e3a25e4d4074eca2338edc343558cd2d.jpg,val/Mealybug/Mealy-Bug_320_png.rf.881446b481b41f61f82d0aeb60af53e9.jpg
+14,none,119,near,True,True,train/Mealybug/Mealy-Bug_366_png.rf.e3a25e4d4074eca2338edc343558cd2d.jpg,test/Mealybug/Mealy-Bug_452_png.rf.e5853cd334b9e3ad50a86c1d0e0ec253.jpg
+6,horizontal,555,near,True,False,train/Mealybug/Mealy-Bug_368_png.rf.c57ea458776cc67cde6db513bb8d9c6f.jpg,train/Mealybug/Mealy-Bug_770_png.rf.3f85016a146324dd304eb96bd6b8483d.jpg
+0,none,429,near,True,False,train/Mealybug/Mealy-Bug_369_png.rf.613c50604df47888621a220583dcf5e1.jpg,train/Mealybug/Mealy-Bug_723_png.rf.556ec488f6db16f188b8a9ce6823e4d0.jpg
+0,horizontal,518,near,True,True,train/Mealybug/Mealy-Bug_369_png.rf.613c50604df47888621a220583dcf5e1.jpg,val/Mealybug/Mealy-Bug_244_png.rf.7fa17fdd558d7d53bfcd039c354b5cd3.jpg
+4,none,98,near,True,True,train/Mealybug/Mealy-Bug_369_png.rf.613c50604df47888621a220583dcf5e1.jpg,test/Mealybug/Mealy-Bug_454_png.rf.7513bbf6748dd240e2c6d99b7e9e7cc1.jpg
+8,vertical,112,near,True,False,train/Mealybug/Mealy-Bug_373_png.rf.3603c5b270c95f7b86b50e0f0d8f045c.jpg,train/Mealybug/Mealy-Bug_750_png.rf.ba47745e441271546fbd3273cca2ecfb.jpg
+12,horizontal,341,near,True,False,train/Mealybug/Mealy-Bug_376_png.rf.84cfc45697bb1d813dfd8cd05dac00e5.jpg,train/Mealybug/Mealy-Bug_771_png.rf.4d367371a4ed2b6b5d14f623eb2ea6bc.jpg
+2,horizontal,617,near,True,False,train/Mealybug/Mealy-Bug_386_png.rf.e375fa94bd87f1d6775f4c1b17134fcc.jpg,train/Mealybug/Mealy-Bug_404_png.rf.c7e3f1c9d045de2ae156d52f70111a38.jpg
+6,horizontal,146,near,True,True,train/Mealybug/Mealy-Bug_389_png.rf.9d3258c146e7bdb00c2fcb7d342c1739.jpg,val/Mealybug/Mealy-Bug_320_png.rf.881446b481b41f61f82d0aeb60af53e9.jpg
+14,none,335,near,True,True,train/Mealybug/Mealy-Bug_389_png.rf.9d3258c146e7bdb00c2fcb7d342c1739.jpg,test/Mealybug/Mealy-Bug_452_png.rf.e5853cd334b9e3ad50a86c1d0e0ec253.jpg
+0,horizontal,522,near,True,False,train/Mealybug/Mealy-Bug_390_png.rf.6ab3b2a007df39bbbf5f72d78849b9f4.jpg,train/Mealybug/Mealy-Bug_765_png.rf.71071c941f1be3ec9fd0d4dc79180e62.jpg
+2,horizontal,358,near,True,True,train/Mealybug/Mealy-Bug_397_png.rf.fdab40ea71f7c172368dd4d808e16f7f.jpg,val/Mealybug/Mealy-Bug_343_png.rf.ce144f6eff3758b01c8f507bc921a6d0.jpg
+2,none,835,near,True,True,train/Mealybug/Mealy-Bug_461_png.rf.2d85c84dbb88912e4fcfe8f3cfe27c68.jpg,val/Mealybug/Mealy-Bug_356_png.rf.5f14abd212aa7c2fa02107437149b0c7.jpg
+4,vertical,298,near,True,False,train/Mealybug/Mealy-Bug_466_png.rf.a381fe1c0bd4a44e5af992643d6b6689.jpg,train/Mealybug/Mealy-Bug_605_png.rf.039f02d3e11b1e698c640965d259cdc8.jpg
+4,vertical,330,near,True,False,train/Mealybug/Mealy-Bug_466_png.rf.a381fe1c0bd4a44e5af992643d6b6689.jpg,train/Mealybug/Mealy-Bug_608_png.rf.0576e5b3bfa339c3fea80725acd745c5.jpg
+4,none,655,near,True,False,train/Mealybug/Mealy-Bug_466_png.rf.a381fe1c0bd4a44e5af992643d6b6689.jpg,train/Mealybug/Mealy-Bug_758_png.rf.b89368783792dc134484afe03e846d26.jpg
+0,vertical,806,near,True,True,train/Mealybug/Mealy-Bug_603_png.rf.34e31d30ed1e5357f196905194226871.jpg,val/Mealybug/Mealy-Bug_333_png.rf.9f1e1ce7b6a86bb495a83c1bf7d43466.jpg
+8,none,110,near,True,False,train/Mealybug/Mealy-Bug_605_png.rf.039f02d3e11b1e698c640965d259cdc8.jpg,train/Mealybug/Mealy-Bug_608_png.rf.0576e5b3bfa339c3fea80725acd745c5.jpg
+6,vertical,216,near,True,False,train/Mealybug/Mealy-Bug_605_png.rf.039f02d3e11b1e698c640965d259cdc8.jpg,train/Mealybug/Mealy-Bug_758_png.rf.b89368783792dc134484afe03e846d26.jpg
+2,vertical,349,near,True,False,train/Mealybug/Mealy-Bug_608_png.rf.0576e5b3bfa339c3fea80725acd745c5.jpg,train/Mealybug/Mealy-Bug_758_png.rf.b89368783792dc134484afe03e846d26.jpg
+2,vertical,102,near,True,True,train/Mealybug/Mealy-Bug_613_png.rf.4343ca87bd46399f9eaeef0bf8407ba6.jpg,test/Mealybug/Mealy-Bug_420_png.rf.f4befd8fbbbe7e97d377b83287f0e5d6.jpg
+0,vertical,437,near,True,False,train/Mealybug/Mealy-Bug_664_png.rf.20da8c3564df12f4befb90e458dbf663.jpg,train/Mealybug/Mealy-Bug_708_png.rf.ed1b0cf46bbdcd4cf62bac3d5506b9a8.jpg
+0,vertical,65,near,True,True,train/Mealybug/Mealy-Bug_674_png.rf.cc97816d0c5c7b93beb659fe0beabbdb.jpg,test/Mealybug/Mealy-Bug_418_png.rf.f3d47302b217d753576ff0f18b9d5738.jpg
+0,none,964,near,True,True,train/Mealybug/Mealy-Bug_676_png.rf.3b0144051d5b0afaf168b00ba69b98ca.jpg,test/Mealybug/Mealy-Bug_448_png.rf.d2d87fba2221221cf20513e3e0e94534.jpg
+10,none,545,near,True,False,train/Mealybug/Mealy-Bug_695_png.rf.ca3868f2ad3208883088e29a720e6070.jpg,train/Mealybug/Mealy-Bug_703_png.rf.249c7a0fa5b4c01be40a4cc6a265af0f.jpg
+14,horizontal,36,near,True,True,train/Mealybug/Mealy-Bug_715_png.rf.1913168ec8330663df0cb83490b1f8a6.jpg,test/Mealybug/Mealy-Bug_426_png.rf.e05fd3140b72f6dcf634452ae8a34012.jpg
+0,horizontal,510,near,True,True,train/Mealybug/Mealy-Bug_723_png.rf.556ec488f6db16f188b8a9ce6823e4d0.jpg,val/Mealybug/Mealy-Bug_244_png.rf.7fa17fdd558d7d53bfcd039c354b5cd3.jpg
+4,none,261,near,True,True,train/Mealybug/Mealy-Bug_723_png.rf.556ec488f6db16f188b8a9ce6823e4d0.jpg,test/Mealybug/Mealy-Bug_454_png.rf.7513bbf6748dd240e2c6d99b7e9e7cc1.jpg
+6,vertical,513,near,True,True,train/Mealybug/Mealy-Bug_769_png.rf.5da39859034f6ef430d9224148bd7c2d.jpg,val/Mealybug/Mealy-Bug_355_png.rf.f3b1615c8ecd00aa18340c9854e4af61.jpg
+0,none,964,near,True,False,train/Mealybug/Mealy-Bug_774_png.rf.cfdfe02147bc6da17fb241e51d5f0c74.jpg,train/Mealybug/Mealy-Bug_776_png.rf.a7640300a4be6cf06b70307009a35b73.jpg
+0,horizontal,701,near,True,True,train/Mealybug/Mealy-Bug_775_png.rf.65e1ef6abd48d7f78de0e6af14f8a5a8.jpg,val/Mealybug/Mealy-Bug_292_png.rf.eff38052c4c6207f9e983fc77becc736.jpg
+0,none,611,near,True,True,train/Mealybug/Mealy-Bug_775_png.rf.65e1ef6abd48d7f78de0e6af14f8a5a8.jpg,val/Mealybug/Mealy-Bug_326_png.rf.3e689e960cbf7ba5233db34dfb4610c2.jpg
+14,none,419,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_101.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_95.jpg
+8,none,299,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_103.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_395.jpg
+12,horizontal,396,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_103.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_99.jpg
+14,horizontal,187,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_107.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_398.jpg
+14,none,191,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_107.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_96.jpg
+10,none,88,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_112.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_123.jpg
+14,horizontal,555,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_12.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_3.jpg
+14,none,159,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_125.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_133.jpg
+14,none,264,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_126.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_131.jpg
+10,vertical,249,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_126.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_134.jpg
+10,horizontal,261,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_129.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_139.jpg
+14,none,318,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_131.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_132.jpg
+12,none,321,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_133.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_137.jpg
+14,horizontal,228,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_138.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_140.jpg
+12,none,118,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_14.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_8.jpg
+10,horizontal,158,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_141.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_152.jpg
+14,none,318,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_142.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_155.jpg
+14,horizontal,115,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_144.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_149.jpg
+14,none,182,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_156.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_159.jpg
+8,horizontal,209,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_161.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_170.jpg
+10,none,242,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_162.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_167.jpg
+12,none,196,near,True,True,train/Pod Borer/Aug_Earias cupreoviridis Walker_173.jpg,test/Pod Borer/Aug_Earias cupreoviridis Walker_348.jpg
+12,horizontal,193,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_18.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_22.jpg
+14,none,181,near,True,True,train/Pod Borer/Aug_Earias cupreoviridis Walker_182.jpg,test/Pod Borer/Aug_Earias cupreoviridis Walker_348.jpg
+8,none,199,near,True,True,train/Pod Borer/Aug_Earias cupreoviridis Walker_182.jpg,test/Pod Borer/Aug_Earias cupreoviridis Walker_350.jpg
+12,none,380,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_207.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_211.jpg
+12,vertical,42,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_218.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_224.jpg
+12,horizontal,24,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_225.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_226.jpg
+14,horizontal,207,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_236.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_241.jpg
+14,horizontal,235,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_237.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_241.jpg
+12,none,209,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_250.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_259.jpg
+14,horizontal,565,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_282.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_292.jpg
+14,none,248,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_293.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_294.jpg
+12,none,319,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_304.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_307.jpg
+14,horizontal,293,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_306.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_310.jpg
+12,none,121,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_319.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_324.jpg
+4,horizontal,586,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_328.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_90.jpg
+14,none,152,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_368.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_369.jpg
+14,none,269,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_384.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_388.jpg
+10,horizontal,230,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_392.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_97.jpg
+12,vertical,147,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_393.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_94.jpg
+10,vertical,58,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_394.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_403.jpg
+12,horizontal,254,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_395.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_99.jpg
+14,horizontal,222,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_399.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_95.jpg
+14,none,191,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_402.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_96.jpg
+12,horizontal,253,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_404.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_96.jpg
+4,horizontal,457,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_46.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_61.jpg
+14,horizontal,462,near,True,True,train/Pod Borer/Aug_Earias cupreoviridis Walker_91.jpg,test/Pod Borer/Aug_Earias cupreoviridis Walker_336.jpg
+12,none,264,near,True,True,train/Pod Borer/Aug_Earias cupreoviridis Walker_91.jpg,test/Pod Borer/Aug_Earias cupreoviridis Walker_337.jpg
+10,horizontal,79,near,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_94.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_99.jpg
+8,none,282,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_10.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_4.jpg
+14,none,368,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_104.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_98.jpg
+14,none,146,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_110.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_124.jpg
+4,none,606,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_142.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_152.jpg
+12,horizontal,246,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_15.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_8.jpg
+12,none,120,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_150.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_153.jpg
+14,none,177,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_16.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_23.jpg
+10,horizontal,473,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_16.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_25.jpg
+14,none,352,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_20.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_30.jpg
+12,horizontal,158,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_23.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_25.jpg
+10,none,200,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_237.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_247.jpg
+12,none,40,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_239.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_36.jpg
+14,none,306,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_243.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_246.jpg
+14,horizontal,213,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_249.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_250.jpg
+8,none,382,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_251.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_261.jpg
+14,horizontal,218,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_252.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_261.jpg
+12,horizontal,66,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_253.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_264.jpg
+14,none,268,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_256.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_260.jpg
+12,none,471,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_257.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_259.jpg
+14,none,245,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_269.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_270.jpg
+12,horizontal,20,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_283.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_293.jpg
+14,none,384,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_285.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_291.jpg
+12,horizontal,100,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_287.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_293.jpg
+10,horizontal,392,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_298.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_302.jpg
+8,horizontal,110,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_304.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_311.jpg
+10,none,183,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_328.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_330.jpg
+14,horizontal,240,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_332.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_338.jpg
+14,none,177,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_332.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_342.jpg
+12,none,212,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_334.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_343.jpg
+14,none,264,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_338.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_339.jpg
+8,horizontal,481,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_338.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_342.jpg
+10,horizontal,265,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_339.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_342.jpg
+8,none,113,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_57.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_58.jpg
+14,horizontal,334,near,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_95.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_96.jpg
+8,horizontal,330,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_102.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_107.jpg
+12,horizontal,35,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_175.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_186.jpg
+8,horizontal,126,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_175.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_67.jpg
+12,horizontal,146,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_181.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_73.jpg
+10,horizontal,301,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_183.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_187.jpg
+12,horizontal,298,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_183.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_64.jpg
+12,none,480,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_187.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_68.jpg
+10,none,459,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_187.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_72.jpg
+6,none,281,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_233.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_52.jpg
+14,horizontal,429,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_233.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_59.jpg
+6,none,412,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_236.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_244.jpg
+10,horizontal,194,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_259.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_265.jpg
+14,horizontal,335,near,True,True,train/Termite/Aug_SL8 Microtermes obesi Holmgren_310.jpg,test/Termite/Aug_SL8 Microtermes obesi Holmgren_314.jpg
+14,horizontal,407,near,True,True,train/Termite/Aug_SL8 Microtermes obesi Holmgren_311.jpg,test/Termite/Aug_SL8 Microtermes obesi Holmgren_313.jpg
+14,none,320,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_32.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_34.jpg
+14,none,628,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_324.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_329.jpg
+12,horizontal,135,near,True,True,train/Termite/Aug_SL8 Microtermes obesi Holmgren_325.jpg,test/Termite/Aug_SL8 Microtermes obesi Holmgren_315.jpg
+12,none,222,near,True,True,train/Termite/Aug_SL8 Microtermes obesi Holmgren_329.jpg,test/Termite/Aug_SL8 Microtermes obesi Holmgren_319.jpg
+10,horizontal,360,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_33.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_38.jpg
+14,none,311,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_36.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_40.jpg
+10,horizontal,460,near,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_49.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_55.jpg
+6,none,379,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_111.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_122.jpg
+10,horizontal,465,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_111.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_123.jpg
+14,horizontal,567,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_122.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_123.jpg
+10,none,385,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_127.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_128.jpg
+6,horizontal,239,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_129.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_136.jpg
+12,horizontal,229,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_129.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_141.jpg
+6,none,271,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_130.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_134.jpg
+14,horizontal,92,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_131.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_136.jpg
+8,none,344,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_136.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_141.jpg
+14,none,300,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_142.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_148.jpg
+12,none,113,near,True,True,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_155.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_85.jpg
+14,none,267,near,True,True,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_155.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_87.jpg
+12,none,175,near,True,True,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_156.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_82.jpg
+14,horizontal,251,near,True,True,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_156.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_89.jpg
+14,none,271,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_18.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_212.jpg
+8,none,295,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_20.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_28.jpg
+12,horizontal,227,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_205.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_25.jpg
+14,none,400,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_205.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_27.jpg
+12,horizontal,334,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_209.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_211.jpg
+12,none,71,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_21.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_22.jpg
+14,horizontal,132,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_215.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_218.jpg
+8,horizontal,374,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_216.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_26.jpg
+14,none,141,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_221.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_222.jpg
+10,horizontal,359,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_253.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_257.jpg
+14,none,523,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_258.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_263.jpg
+12,none,365,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_264.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_265.jpg
+10,horizontal,341,near,True,True,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_323.jpg,val/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_320.jpg
+14,horizontal,338,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_325.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_326.jpg
+10,horizontal,600,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_349.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_354.jpg
+10,none,590,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_356.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_357.jpg
+14,none,306,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_38.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_46.jpg
+10,none,379,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_54.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_61.jpg
+14,none,158,near,True,False,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_64.jpg,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_67.jpg
+8,none,626,near,True,True,train/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_66.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_75.jpg
+12,horizontal,61,near,True,False,train/Yellow Mite/yellow_mite_0_100.jpg,train/Yellow Mite/yellow_mite_0_5984.jpg
+14,horizontal,245,near,True,False,train/Yellow Mite/yellow_mite_0_1225.jpg,train/Yellow Mite/yellow_mite_0_8484.jpg
+14,horizontal,287,near,True,False,train/Yellow Mite/yellow_mite_0_1496.jpg,train/Yellow Mite/yellow_mite_0_8905.jpg
+14,horizontal,16,near,True,False,train/Yellow Mite/yellow_mite_0_1633.jpg,train/Yellow Mite/yellow_mite_0_8347.jpg
+14,none,451,near,True,False,train/Yellow Mite/yellow_mite_0_1865.jpg,train/Yellow Mite/yellow_mite_0_6972.jpg
+14,horizontal,376,near,True,False,train/Yellow Mite/yellow_mite_0_1896.jpg,train/Yellow Mite/yellow_mite_0_3735.jpg
+10,none,675,near,True,False,train/Yellow Mite/yellow_mite_0_2590.jpg,train/Yellow Mite/yellow_mite_0_7324.jpg
+10,horizontal,179,near,True,False,train/Yellow Mite/yellow_mite_0_3048.jpg,train/Yellow Mite/yellow_mite_0_8379.jpg
+14,horizontal,367,near,True,False,train/Yellow Mite/yellow_mite_0_3289.jpg,train/Yellow Mite/yellow_mite_0_498.jpg
+14,horizontal,370,near,True,True,train/Yellow Mite/yellow_mite_0_3289.jpg,test/Yellow Mite/yellow_mite_0_6042.jpg
+14,none,248,near,True,False,train/Yellow Mite/yellow_mite_0_3621.jpg,train/Yellow Mite/yellow_mite_0_5507.jpg
+12,horizontal,337,near,True,True,train/Yellow Mite/yellow_mite_0_3735.jpg,val/Yellow Mite/yellow_mite_0_1896.jpg
+6,horizontal,561,near,True,False,train/Yellow Mite/yellow_mite_0_4606.jpg,train/Yellow Mite/yellow_mite_0_7480.jpg
+14,none,255,near,True,False,train/Yellow Mite/yellow_mite_0_5386.jpg,train/Yellow Mite/yellow_mite_0_9432.jpg
+12,none,407,near,True,False,train/Yellow Mite/yellow_mite_0_5524.jpg,train/Yellow Mite/yellow_mite_0_5959.jpg
+12,none,395,near,True,False,train/Yellow Mite/yellow_mite_0_5770.jpg,train/Yellow Mite/yellow_mite_0_8916.jpg
+12,none,396,near,True,True,train/Yellow Mite/yellow_mite_0_5959.jpg,val/Yellow Mite/yellow_mite_0_5524.jpg
+14,none,413,near,True,False,train/Yellow Mite/yellow_mite_0_7078.jpg,train/Yellow Mite/yellow_mite_0_7295.jpg
+14,horizontal,406,near,True,False,train/Yellow Mite/yellow_mite_0_7224.jpg,train/Yellow Mite/yellow_mite_0_932.jpg
+8,horizontal,590,near,True,False,train/Yellow Mite/yellow_mite_0_7539.jpg,train/Yellow Mite/yellow_mite_0_7677.jpg
+14,horizontal,539,near,True,True,train/Yellow Mite/yellow_mite_0_7752.jpg,test/Yellow Mite/yellow_mite_0_6134.jpg
+14,none,429,near,True,True,train/Yellow Mite/yellow_mite_0_9157.jpg,test/Yellow Mite/yellow_mite_0_6472.jpg
+0,horizontal,935,near,True,True,val/Beet Armyworm/Image_3_jpg.rf.92499c17cec5da761fce7795c2d814cc.jpg,test/Beet Armyworm/image-55-_jpg.rf.09c9dafcad3875136915351c0527e31e.jpg
+0,none,584,near,True,False,val/Beet Armyworm/images (1).jpg,val/Beet Armyworm/Wild-Indigo-2-caterpillar_Clay_12SEP2018_Sara-Bright10.jpg
+12,horizontal,84,near,True,False,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_146.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_150.jpg
+14,none,105,near,True,False,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_147.jpg,val/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_149.jpg
+12,none,68,near,True,False,val/Cutworm/1200px-Agrotis_ipsilon-_aardrups_jpg.rf.a0810c9b6ad4aca3a22682844962f15e.jpg,val/Cutworm/agrotis_ipsilon--22-_jpg.rf.2fb3320ed90e65afc1bba4fe64a57908.jpg
+12,none,112,near,True,True,val/Cutworm/agrotis_ipsilon--3-_jpg.rf.e904d5a49a709b44a4ef46d9dd96f454.jpg,test/Cutworm/agrotis_ipsilon--12-_jpg.rf.48eac989eb27dbb77d95e619786eb954.jpg
+4,none,386,near,True,False,val/Jute Red Mite/14077_jpg.rf.2e0a025d3dae1397c19aa38ffd8fcce8.jpg,val/Jute Red Mite/14198_jpg.rf.3ae70bdee04f05a186d4a48b2d2d2c36.jpg
+2,none,676,near,True,True,val/Jute Red Mite/14221_jpg.rf.2232b70943590e3f0b09416d4feeac9b.jpg,test/Jute Red Mite/red53_jpg.rf.698df2eb00e431ef173922d04fcd1f32.jpg
+0,none,148,near,True,True,val/Jute Red Mite/thumb (1).jpg,test/Jute Red Mite/red81_jpg.rf.0dcde518152c69a20b97316ae92bfbf4.jpg
+0,none,123,near,True,True,val/Jute Red Mite/thumb.jpg,test/Jute Red Mite/red95_jpg.rf.b35213ae05c3d2dedddf1563c67b522a.jpg
+0,none,872,near,True,False,val/Leaf Beetle/images (1).jpg,val/Leaf Beetle/images.jpg
+2,none,88,near,True,True,val/Mealybug/Mealy-Bug_243_png.rf.baad0b294cf789bd5d071f712dc12359.jpg,test/Mealybug/Mealy-Bug_451_png.rf.aa0f8d5cc21589a6ae437e10d2dfd455.jpg
+8,horizontal,130,near,True,True,val/Mealybug/Mealy-Bug_244_png.rf.7fa17fdd558d7d53bfcd039c354b5cd3.jpg,test/Mealybug/Mealy-Bug_454_png.rf.7513bbf6748dd240e2c6d99b7e9e7cc1.jpg
+2,horizontal,719,near,True,False,val/Mealybug/Mealy-Bug_292_png.rf.eff38052c4c6207f9e983fc77becc736.jpg,val/Mealybug/Mealy-Bug_326_png.rf.3e689e960cbf7ba5233db34dfb4610c2.jpg
+0,vertical,380,near,True,True,val/Mealybug/Mealy-Bug_323_png.rf.539d1cea73d4f26734c0ddcfa47561b2.jpg,test/Mealybug/Mealy-Bug_428_png.rf.55bb6f54d781c69ee0a0a5b79263f32d.jpg
+2,horizontal,512,near,True,False,test/Beet Armyworm/image-51-_jpg.rf.411f58b1ca9c13f8514dfdd95ca6af9f.jpg,test/Beet Armyworm/jpg_63-Copy-2-_jpg.rf.5263b5eb893445dd8f02a670d40b5d71.jpg
+0,vertical,1000,near,True,False,test/Cutworm/5435639_jpg.rf.00bf6d97c056aac9dff8f52ffb7220b6.jpg,test/Cutworm/5435639_jpg.rf.f52429961cc0d08f7f824a3200baff36.jpg
+12,horizontal,129,near,True,False,test/Jute Aphid/Aug_Aphis gossypii Glover_148.jpg,test/Jute Aphid/Aug_Aphis gossypii Glover_151.jpg
+6,horizontal,99,near,True,False,test/Jute Semilooper/Aug_Anomis Sabulifera Guenee_373.jpg,test/Jute Semilooper/Aug_Anomis Sabulifera Guenee_375.jpg
+14,horizontal,175,near,True,False,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_253.jpg,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_261.jpg
+14,horizontal,134,near,True,False,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_255.jpg,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_260.jpg
+14,none,359,near,True,False,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_260.jpg,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_263.jpg
+14,horizontal,294,near,True,False,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_270.jpg,test/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_271.jpg
+8,none,376,near,True,False,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_253.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_256.jpg
+14,none,154,near,True,False,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_256.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_267.jpg
+0,horizontal,380,near,True,False,test/Mealybug/Mealy-Bug_427_png.rf.f88540edc10ec883eac417683c71931b.jpg,test/Mealybug/Mealy-Bug_428_png.rf.55bb6f54d781c69ee0a0a5b79263f32d.jpg
+12,none,601,near,True,False,test/Pod Borer/Aug_Earias cupreoviridis Walker_348.jpg,test/Pod Borer/Aug_Earias cupreoviridis Walker_350.jpg
+14,horizontal,16,near,True,False,test/Scopula Emissaria/Aug_Scopula emissaria Walker_204.jpg,test/Scopula Emissaria/Aug_Scopula emissaria Walker_207.jpg
+12,horizontal,437,near,True,False,test/Scopula Emissaria/Aug_Scopula emissaria Walker_204.jpg,test/Scopula Emissaria/Aug_Scopula emissaria Walker_214.jpg
+14,none,290,near,True,False,test/Scopula Emissaria/Aug_Scopula emissaria Walker_207.jpg,test/Scopula Emissaria/Aug_Scopula emissaria Walker_212.jpg
+10,horizontal,18,near,True,False,test/Scopula Emissaria/Aug_Scopula emissaria Walker_208.jpg,test/Scopula Emissaria/Aug_Scopula emissaria Walker_211.jpg
+14,none,344,near,True,False,test/Scopula Emissaria/Aug_Scopula emissaria Walker_219.jpg,test/Scopula Emissaria/Aug_Scopula emissaria Walker_224.jpg
+14,horizontal,213,near,True,False,test/Termite/Aug_SL8 Microtermes obesi Holmgren_302.jpg,test/Termite/Aug_SL8 Microtermes obesi Holmgren_309.jpg
+14,none,95,near,True,False,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_82.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_83.jpg
+10,horizontal,202,near,True,False,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_82.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_89.jpg
+12,horizontal,202,near,True,False,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_83.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_89.jpg
+12,horizontal,171,near,True,False,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_83.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_91.jpg
+10,none,456,near,True,False,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_91.jpg,test/Termite odontotermes (Rambur)/Aug_Odontotermes obesus (Rambur)_92.jpg
+14,horizontal,13,possible,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_240.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_247.jpg
+14,horizontal,12,possible,True,False,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_297.jpg,train/Black Hairy/Aug_Pericallia ricini Fabricius (form 1)_72.jpg
+10,none,7,possible,True,True,train/Field Cricket/13_jpg.rf.e78cc27ed6666abfa3a63a7be407e094.jpg,val/Field Cricket/26_jpg.rf.7ec278c3a9dd16ad732a318ae2d5c8b4.jpg
+12,horizontal,6,possible,True,False,train/Field Cricket/14_jpg.rf.a79cecd0b83887a706369f1c9175ce70.jpg,train/Field Cricket/18_jpg.rf.ddfb23fb06b8a9c8b28138ea6e6d56f9.jpg
+12,horizontal,7,possible,True,False,train/Field Cricket/14_jpg.rf.a79cecd0b83887a706369f1c9175ce70.jpg,train/Field Cricket/33_jpg.rf.07ef0fe436008ee15cb6cbc7c0ebae25.jpg
+8,horizontal,6,possible,True,True,train/Field Cricket/14_jpg.rf.a79cecd0b83887a706369f1c9175ce70.jpg,val/Field Cricket/19_jpg.rf.976eb2c66890c2f97a4a48b36128305f.jpg
+12,horizontal,7,possible,True,False,train/Field Cricket/15_jpg.rf.68563da280fe39478b3ba95cc3a8350a.jpg,train/Field Cricket/18_jpg.rf.ddfb23fb06b8a9c8b28138ea6e6d56f9.jpg
+10,horizontal,7,possible,True,False,train/Field Cricket/15_jpg.rf.68563da280fe39478b3ba95cc3a8350a.jpg,train/Field Cricket/20_jpg.rf.0f7dd30c9a015a8cc74a9e28fd9a7c88.jpg
+12,horizontal,8,possible,True,False,train/Field Cricket/15_jpg.rf.68563da280fe39478b3ba95cc3a8350a.jpg,train/Field Cricket/33_jpg.rf.07ef0fe436008ee15cb6cbc7c0ebae25.jpg
+10,horizontal,7,possible,True,True,train/Field Cricket/15_jpg.rf.68563da280fe39478b3ba95cc3a8350a.jpg,val/Field Cricket/19_jpg.rf.976eb2c66890c2f97a4a48b36128305f.jpg
+2,none,12,possible,True,False,train/Field Cricket/18_jpg.rf.ddfb23fb06b8a9c8b28138ea6e6d56f9.jpg,train/Field Cricket/33_jpg.rf.07ef0fe436008ee15cb6cbc7c0ebae25.jpg
+8,horizontal,6,possible,True,False,train/Field Cricket/1_jpg.rf.287f8373a9a2a112ef498ef11ab8759b.jpg,train/Field Cricket/36_jpg.rf.ad717bdd6129d2e26ab65c21949e5765.jpg
+10,horizontal,10,possible,True,False,train/Field Cricket/20_jpg.rf.0f7dd30c9a015a8cc74a9e28fd9a7c88.jpg,train/Field Cricket/29_jpg.rf.ef9b35aeab55c7a7855a098806468db9.jpg
+4,none,8,possible,True,False,train/Field Cricket/20_jpg.rf.0f7dd30c9a015a8cc74a9e28fd9a7c88.jpg,train/Field Cricket/33_jpg.rf.07ef0fe436008ee15cb6cbc7c0ebae25.jpg
+8,none,6,possible,True,False,train/Field Cricket/20_jpg.rf.0f7dd30c9a015a8cc74a9e28fd9a7c88.jpg,train/Field Cricket/35_jpg.rf.9a280a9ea02215d0d403a5178e53c065.jpg
+4,none,6,possible,True,True,train/Field Cricket/20_jpg.rf.0f7dd30c9a015a8cc74a9e28fd9a7c88.jpg,val/Field Cricket/6_jpg.rf.220aa118d1cb17a7e8ff8a5206c98df9.jpg
+4,none,10,possible,True,False,train/Field Cricket/24_jpg.rf.c024bb4c90862e25c34d5201db161f49.jpg,train/Field Cricket/29_jpg.rf.ef9b35aeab55c7a7855a098806468db9.jpg
+6,horizontal,11,possible,True,True,train/Field Cricket/24_jpg.rf.c024bb4c90862e25c34d5201db161f49.jpg,val/Field Cricket/23_jpg.rf.b0805a3a4441df009fb85027b72eff02.jpg
+14,none,6,possible,True,False,train/Field Cricket/27_jpg.rf.697a963b2d4fe1044c048ed5a61e80d6.jpg,train/Field Cricket/37_jpg.rf.c1f611cca05dd8afdb7d82f47cca3f50.jpg
+4,none,11,possible,True,False,train/Field Cricket/2_jpg.rf.b0fb1712f0ca3886ca0017ff00df16fd.jpg,train/Field Cricket/3_jpg.rf.76c8c464919048106e8d57fe5e40197a.jpg
+10,horizontal,9,possible,True,True,train/Field Cricket/31_jpg.rf.96dd1db33a0356e673bbe0d3ba72fc17.jpg,val/Field Cricket/39_jpg.rf.6d265d3d4aab2c2811521fc5644fb269.jpg
+12,horizontal,6,possible,True,True,train/Field Cricket/32_jpg.rf.2cb675e4525f8631f0a7e485d236b361.jpg,val/Field Cricket/39_jpg.rf.6d265d3d4aab2c2811521fc5644fb269.jpg
+6,none,9,possible,True,True,train/Field Cricket/33_jpg.rf.07ef0fe436008ee15cb6cbc7c0ebae25.jpg,val/Field Cricket/23_jpg.rf.b0805a3a4441df009fb85027b72eff02.jpg
+14,horizontal,6,possible,True,True,train/Field Cricket/33_jpg.rf.07ef0fe436008ee15cb6cbc7c0ebae25.jpg,val/Field Cricket/25_jpg.rf.ead1bf7c477da646fe8a4b6f4e01be33.jpg
+4,none,13,possible,True,False,train/Field Cricket/34_jpg.rf.2f8cd83312099ccfeb5d3c465a034834.jpg,train/Field Cricket/35_jpg.rf.9a280a9ea02215d0d403a5178e53c065.jpg
+14,horizontal,6,possible,True,True,train/Field Cricket/36_jpg.rf.ad717bdd6129d2e26ab65c21949e5765.jpg,val/Field Cricket/26_jpg.rf.7ec278c3a9dd16ad732a318ae2d5c8b4.jpg
+8,none,8,possible,True,False,train/Field Cricket/3_jpg.rf.76c8c464919048106e8d57fe5e40197a.jpg,train/Field Cricket/8_jpg.rf.f93c8795519a62eb85d9bdc42f2887bf.jpg
+12,none,6,possible,True,True,train/Field Cricket/8_jpg.rf.f93c8795519a62eb85d9bdc42f2887bf.jpg,val/Field Cricket/22_jpg.rf.4d8d11b3377f6e78a40961997f47fb49.jpg
+12,vertical,10,possible,True,False,train/Field Cricket/field_cricket_0_4020.jpg,train/Field Cricket/field_cricket_0_7491.jpg
+12,vertical,11,possible,True,False,train/Field Cricket/field_cricket_0_7347.jpg,train/Field Cricket/field_cricket_0_7792.jpg
+14,vertical,6,possible,True,True,train/Field Cricket/field_cricket_0_8157.jpg,test/Field Cricket/field_cricket_0_9715.jpg
+14,horizontal,6,possible,True,False,train/Jute Hairy/spilosoma_obliqua_0_3150.jpg,train/Jute Hairy/spilosoma_obliqua_0_8600.jpg
+14,horizontal,12,possible,True,False,train/Jute Hairy/spilosoma_obliqua_0_642.jpg,train/Jute Hairy/spilosoma_obliqua_0_8090.jpg
+14,horizontal,12,possible,True,False,train/Jute Hairy/spilosoma_obliqua_0_730.jpg,train/Jute Hairy/spilosoma_obliqua_0_8359.jpg
+14,none,6,possible,True,False,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_202.jpg,train/Jute Red Mite/Aug_Tetranychus bioculats (Wood-Mason)_204.jpg
+12,horizontal,8,possible,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_187.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_197.jpg
+14,horizontal,8,possible,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_33.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_40.jpg
+14,horizontal,12,possible,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_330.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_343.jpg
+10,none,13,possible,True,False,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_355.jpg,train/Jute Semilooper/Aug_Anomis Sabulifera Guenee_359.jpg
+14,horizontal,6,possible,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_138.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_17.jpg
+12,vertical,13,possible,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_222.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_232.jpg
+14,vertical,7,possible,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_233.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_236.jpg
+12,none,9,possible,True,False,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_64.jpg,train/Jute Stem Girdler/Aug_Nupserha bicolor (Dutta)_72.jpg
+12,horizontal,6,possible,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_157.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_65.jpg
+12,horizontal,12,possible,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_3037.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_3575.jpg
+12,none,9,possible,True,False,train/Jute Stem Weevil/Jute_stem_weevil_0_5381.jpg,train/Jute Stem Weevil/Jute_stem_weevil_0_5815.jpg
+12,horizontal,8,possible,True,False,train/Jute Stem Weevil/Weevil-336-_jpg.rf.e33daca720605014c3f36e99e03f5487.jpg,train/Jute Stem Weevil/Weevil-341-_jpg.rf.9e0605231faa42c283de5347a4a37e89.jpg
+12,horizontal,13,possible,True,True,train/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_52.jpg,test/Leaf Beetle/Aug_Luperomorpha vittata Duvivier_258.jpg
+10,horizontal,8,possible,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_125.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_130.jpg
+10,none,10,possible,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_125.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_139.jpg
+12,horizontal,8,possible,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_128.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_138.jpg
+4,none,9,possible,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_128.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_140.jpg
+12,horizontal,6,possible,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_130.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_137.jpg
+14,horizontal,14,possible,True,False,train/Pod Borer/Aug_Earias cupreoviridis Walker_147.jpg,train/Pod Borer/Aug_Earias cupreoviridis Walker_149.jpg
+10,horizontal,8,possible,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_15.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_2.jpg
+14,vertical,11,possible,True,False,train/Scopula Emissaria/Aug_Scopula emissaria Walker_252.jpg,train/Scopula Emissaria/Aug_Scopula emissaria Walker_258.jpg
+12,horizontal,6,possible,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_125.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_95.jpg
+14,horizontal,7,possible,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_174.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_263.jpg
+14,vertical,10,possible,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_178.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_181.jpg
+12,none,11,possible,True,False,train/Termite/Aug_SL8 Microtermes obesi Holmgren_252.jpg,train/Termite/Aug_SL8 Microtermes obesi Holmgren_254.jpg
+12,horizontal,8,possible,True,True,train/Yellow Mite/yellow_mite_0_8347.jpg,val/Yellow Mite/yellow_mite_0_1633.jpg
+8,none,11,possible,True,False,val/Field Cricket/19_jpg.rf.976eb2c66890c2f97a4a48b36128305f.jpg,val/Field Cricket/23_jpg.rf.b0805a3a4441df009fb85027b72eff02.jpg
+10,none,8,possible,True,False,val/Field Cricket/22_jpg.rf.4d8d11b3377f6e78a40961997f47fb49.jpg,val/Field Cricket/23_jpg.rf.b0805a3a4441df009fb85027b72eff02.jpg
+8,horizontal,6,possible,True,False,val/Field Cricket/22_jpg.rf.4d8d11b3377f6e78a40961997f47fb49.jpg,val/Field Cricket/26_jpg.rf.7ec278c3a9dd16ad732a318ae2d5c8b4.jpg
+14,vertical,7,possible,True,False,val/Field Cricket/26_jpg.rf.7ec278c3a9dd16ad732a318ae2d5c8b4.jpg,val/Field Cricket/28_jpg.rf.4768cf9c77580a7a21d20047cabb7d37.jpg

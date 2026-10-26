@@ -185,5 +185,3 @@ A quick sanity baseline (StandardScaler + Logistic Regression on HSV+LBP, clean 
 - Near-duplicate detection favors precision over recall. Some heavily augmented copies (6–14 matches) remain in the cleaned split, so the leakage effect is underestimated.
 - Image source is confounded with class (e.g. Beet Armyworm). Per-source reporting exposes this but can't remove it.
 - The label conflicts suggest the original dataset contains some labeling errors beyond the 3 groups we could detect.
-#   J u t e - P e s t - C l a s s i f i c a t i o n  
- 
