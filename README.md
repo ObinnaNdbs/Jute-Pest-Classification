@@ -1,8 +1,8 @@
 # Jute Pest Classification Without Deep Learning
 
-CS 590 project (SIUE, Fall 2026) by Obinna Ndubuisi and Luke Laurenzaza. The task is to classify 17 jute pest species from images using **handcrafted features (HOG, HSV histograms, LBP) and classical ML only**. No neural networks are used anywhere in the pipeline.
+CS 590 project (SIUE, Fall 2026) by Obinna Ndubuisi and Luke Laurenzaza. The task is to classify 17 jute pest species from images using **handcrafted features (HOG, HSV histograms, LBP) and classical ML only**. The classifiers never see neural-network output. Neural networks are used in one optional preprocessing stage, to find the insect in each image and to group copies of the same photo (see [Fair re-evaluation](#fair-re-evaluation)).
 
-The data preparation is finished: auditing, preprocessing, duplicate detection and feature extraction. This README explains what was done, what was found, and how to run the modeling experiments on top of it.
+The data preparation is finished: auditing, preprocessing, duplicate detection and feature extraction. This README explains what was done, what was found, and how to run the experiments on top of it. Results are in `final_results.md`. **Section 10 there has the fair score (0.49 macro-F1 on 17 classes), which is the number to quote.**
 
 ---
 
@@ -107,13 +107,13 @@ The cleaned split is **conservative**. It removes only the leakage we are sure o
 
 | Family | Captures | Dims | Settings |
 |---|---|---|---|
-| **HOG** | Shape: edges, outline, legs, orientation | 8,100 | Grayscale, 9 orientations, 16×16 px cells, 2×2 blocks, L2-Hys normalization |
-| **HSV** | Color distribution | 256 | Joint histogram: 16 hue × 4 saturation × 4 value bins. Hue gets the most bins because the pests differ mainly in hue; few value bins reduce sensitivity to brightness. |
+| **HOG** | Shape: edges, outline, legs, orientation | 2,352 | Grayscale, 12 orientations, 32×32 px cells, 2×2 blocks, L2-Hys normalization |
+| **HSV** | Color distribution | 1,024 | Joint histogram: 16 hue × 8 saturation × 8 value bins. Hue gets the most bins because the pests differ mainly in hue. |
 | **LBP** | Texture: hair, shell, wing surface | 54 | Rotation-invariant uniform LBP at three scales: (8 points, radius 1), (16, 2), (24, 3) |
 
 - The HSV and LBP histograms are counted **only inside the real-content box**, so padding doesn't skew them.
 - Features are saved **unscaled**.
-- All settings are recorded in `features/params.json`. To try other settings (e.g. HOG cell size), edit `PARAMS` in `extract_features.py` and rerun it.
+- All settings are recorded in `features/params.json`. They were chosen with `exp_feature_params.py`; the midpoint results used HOG with 9 orientations and 16×16 cells (8,100 dims) and HSV with 16×4×4 bins (256 dims). To try other settings, edit `PARAMS` in `extract_features.py` and rerun it.
 
 ---
 
@@ -131,7 +131,7 @@ from evaluation import run_experiment, run_cv, load_results, plot_confusion_matr
 
 # Any feature combination, either split scheme
 data = load_data(features=["hog", "hsv"], split="original")   # or split="clean"
-print(data)   # JuteData(features=['hog', 'hsv'], split='original', dims=8356, train=6444, val=413, test=379)
+print(data)   # JuteData(features=['hog', 'hsv'], split='original', dims=3376, train=6444, val=413, test=379)
 
 # Scaling and PCA go INSIDE the pipeline, so they are fit on training data only
 model = make_pipeline(StandardScaler(), PCA(n_components=0.95),
@@ -155,6 +155,7 @@ load_results().head(10)   # every run so far, best macro-F1 first
 Other `load_data` options:
 
 - `combine_train_val=True` merges val into train, for example to run CV over both.
+- `subset="native12"` keeps only native 256×256 images from the 12 classes with enough of them (at least 250 train and 15 test). Use it with `combine_train_val=True`, because supplied val covers only 4 of those classes.
 - `data.meta_train`, `data.meta_val` and `data.meta_test` hold the per-row metadata (class, source, file paths) for error analysis.
 - `data.feature_slices` tells you which columns of X belong to which feature family.
 
@@ -169,7 +170,7 @@ Other `load_data` options:
 | `fit_seconds`, `predict_seconds`, `n_features` | Runtime and feature-size tradeoff |
 | `model`, `features`, `split`, `eval_set`, `params`, `notes` | What was run |
 
-Each run's confusion matrix is saved to `results/confusion/<run_id>.csv`.
+Each run is saved to `results/runs/<run_id>.csv`, so parallel runs can't overwrite each other, and its confusion matrix to `results/confusion/<run_id>.csv`. `consolidate_results()` writes everything to `results/results.csv`.
 
 ### Evaluation protocol
 
@@ -185,14 +186,62 @@ Each run's confusion matrix is saved to `results/confusion/<run_id>.csv`.
 |---|---|---|
 | 1 | Feature ablation | Same model with `features=` set to `["hog"]`, `["hsv"]`, `["lbp"]`, pairs, and all three |
 | 2 | Classifier comparison | Logistic Regression, KNN, Linear SVM, RBF SVM, Decision Tree, Random Forest on the best feature set(s) |
-| 3 | Dimensionality reduction | Add `PCA(n_components=...)` to the pipeline; compare `macro_f1` vs `n_features` / `fit_seconds`. Most useful with HOG's 8,100 dims, especially for KNN. |
+| 3 | Dimensionality reduction | Add `PCA(n_components=...)` to the pipeline; compare `macro_f1` vs `n_features` / `fit_seconds`. Most useful with HOG's many dimensions, especially for KNN. |
 | 4 | Class imbalance | `class_weight="balanced"` vs. the default; compare `macro_f1` and the `recall[...]` columns for small classes (Beet Armyworm, Jute Stem Girdler) |
 | 5 | Leakage sensitivity | Rerun the final models with `split="clean"` and compare to `split="original"` |
 
-A quick sanity baseline (StandardScaler + Logistic Regression on HSV+LBP, clean split) scores **0.877 macro-F1 in CV** (native 0.967 / resized 0.311) and **0.396 on val** (native 0.854 / resized 0.247). Proper tuned models should beat this.
+All five have now been run; see `final_results.md`. Run these scripts in order to reproduce them:
+
+| Script | What it does |
+|---|---|
+| `exp_feature_params.py` | Compares HOG, HSV and LBP extraction settings |
+| `exp_pca.py` | PCA sweep on HOG; picks the component count |
+| `exp_grid.py` | Every feature mix on every model, on 17 classes and on native12 |
+| `exp_final.py select` | Class weights and tuning with grouped CV |
+| `exp_final.py test` | One test-set score per final model, plus the cross-source and leakage checks |
+| `exp_clustering.py` | Hierarchical clustering, t-SNE and K-means |
+| `exp_svm_convergence.py` | Diagnoses the linear SVM runs that never finished |
+
+## Fair re-evaluation
+
+Most test images turned out to have another version of the same photo in training, so this stage builds a split that keeps every copy of a photo on one side. It also adds insect crops. Everything here is added alongside the existing images, features and results, which stay unchanged.
+
+Neural networks need their own environment, so the modeling environment stays free of them:
+
+```bash
+python -m venv .venv-vision
+.venv-vision\Scripts\activate
+pip install -r requirements-vision.txt --extra-index-url https://download.pytorch.org/whl/cu128
+```
+
+Run these in order, from the project root:
+
+| # | Command | Environment | What it does | Output |
+|---|---|---|---|---|
+| 1 | `python vision/locate_insects.py` | `.venv-vision` | Finds and outlines the insect in each image (Grounding DINO, SAM 2). Add `--sample` for contact sheets only. | `insect_boxes.csv`, `insect_masks.npz`, `Jute_Pest_Crop256/` |
+| 2 | `python vision/find_photo_families.py embed8`, then `link --k 10 --min-sim 0.80`, then `build --strict 40 --loose 15` | `.venv-vision` | Groups copies of each photo (DINOv2, LightGlue). The `calibrate` and `calibrate-match` stages test it on known edits. | `photo_families.csv`, `photo_links.csv` |
+| 3 | `python make_fair_split.py --family loose` | `.venv` | Assigns whole families to 5 folds | `fair_split.csv` |
+| 4 | `extract_features.py` with `JUTE_IMAGES` set to `crop`, `insect_only`, `background` | `.venv` | Features for each image set | `features/<name>/` |
+| 5 | `python exp_matrix.py` | `.venv` | One fixed model across image sets and splits, plus the background, source and copy probes | `results/fair_matrix.csv`, `fair_probes.csv`, `fair_copy_probe.csv` |
+| 6 | `python exp_bootstrap.py` | `.venv` | Confidence intervals and per-class scores | `results/fair_bootstrap.csv`, `fair_per_class.csv` |
+| 7 | The `exp_*.py` scripts above, with `JUTE_SPLIT=fair` and `JUTE_IMAGES` set | `.venv` | The full pipeline on the fair split | `results_<images>_fair/`, `figures/final_<images>_fair/` |
+| 8 | `python exp_tuned_5fold.py` | `.venv` | Scores each tuned model on all 5 folds, next to the fixed model | `results/fair_tuned_5fold.csv` |
+| 9 | `python exp_cluster_compare.py` | `.venv` | Compares clustering across image sets with the same features, one image per photo | `results/fair_cluster_*.csv`, `figures/cluster_compare/` |
+
+Two environment variables select what the experiment scripts use:
+
+| Variable | Values | Default |
+|---|---|---|
+| `JUTE_IMAGES` | `full`, `crop`, `insect_only`, `background` | `full` |
+| `JUTE_SPLIT` | `original`, `clean`, `fair` | `original` |
+
+For example, in PowerShell: `$env:JUTE_IMAGES = "crop"; $env:JUTE_SPLIT = "fair"; python exp_grid.py`. With both unset, the scripts behave as before and write to `results/`.
+
+In code, use `load_data(split="fair", combine_train_val=True, images="crop")`. The fair test set has one image per photo; pass `fair_all_copies=True` for every copy.
 
 ## Known limitations
 
-- Near-duplicate detection favors precision over recall. Some heavily augmented copies (6–14 matches) remain in the cleaned split, so the leakage effect is underestimated.
+- Copy detection on the fair split finds only about half of heavily combined edits, so the fair score is probably still slightly high. See `final_results.md` section 10.9.
+- Near-duplicate detection in `audit_duplicates.py` favors precision over recall. Some heavily augmented copies (6–14 matches) remain in the cleaned split, so the leakage effect is underestimated.
 - Image source is confounded with class (e.g. Beet Armyworm). Per-source reporting exposes this but can't remove it.
 - The label conflicts suggest the original dataset contains some labeling errors beyond the 3 groups we could detect.

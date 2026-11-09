@@ -1,0 +1,205 @@
+mix,view,images,class,group,closest_class,same_group
+hsv+lbp,one per photo,full,Beet Armyworm,moth/caterpillar,Jute Aphid,False
+hsv+lbp,one per photo,full,Black Hairy,moth/caterpillar,Cutworm,True
+hsv+lbp,one per photo,full,Cutworm,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,one per photo,full,Field Cricket,cricket,Jute Stem Girdler,False
+hsv+lbp,one per photo,full,Jute Aphid,aphid/mealybug,Beet Armyworm,False
+hsv+lbp,one per photo,full,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,one per photo,full,Jute Red Mite,mite,Mealybug,False
+hsv+lbp,one per photo,full,Jute Semilooper,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,one per photo,full,Jute Stem Girdler,beetle,Field Cricket,False
+hsv+lbp,one per photo,full,Jute Stem Weevil,beetle,Beet Armyworm,False
+hsv+lbp,one per photo,full,Leaf Beetle,beetle,Beet Armyworm,False
+hsv+lbp,one per photo,full,Mealybug,aphid/mealybug,Beet Armyworm,False
+hsv+lbp,one per photo,full,Pod Borer,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,one per photo,full,Scopula Emissaria,moth/caterpillar,Jute Red Mite,False
+hsv+lbp,one per photo,full,Termite,termite,Termite odontotermes (Rambur),True
+hsv+lbp,one per photo,full,Termite odontotermes (Rambur),termite,Jute Stem Weevil,False
+hsv+lbp,one per photo,full,Yellow Mite,mite,Beet Armyworm,False
+hsv+lbp,one per photo,crop,Beet Armyworm,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,one per photo,crop,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,one per photo,crop,Cutworm,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,one per photo,crop,Field Cricket,cricket,Jute Stem Girdler,False
+hsv+lbp,one per photo,crop,Jute Aphid,aphid/mealybug,Beet Armyworm,False
+hsv+lbp,one per photo,crop,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,one per photo,crop,Jute Red Mite,mite,Jute Aphid,False
+hsv+lbp,one per photo,crop,Jute Semilooper,moth/caterpillar,Jute Stem Girdler,False
+hsv+lbp,one per photo,crop,Jute Stem Girdler,beetle,Field Cricket,False
+hsv+lbp,one per photo,crop,Jute Stem Weevil,beetle,Beet Armyworm,False
+hsv+lbp,one per photo,crop,Leaf Beetle,beetle,Beet Armyworm,False
+hsv+lbp,one per photo,crop,Mealybug,aphid/mealybug,Beet Armyworm,False
+hsv+lbp,one per photo,crop,Pod Borer,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,one per photo,crop,Scopula Emissaria,moth/caterpillar,Jute Red Mite,False
+hsv+lbp,one per photo,crop,Termite,termite,Termite odontotermes (Rambur),True
+hsv+lbp,one per photo,crop,Termite odontotermes (Rambur),termite,Jute Stem Weevil,False
+hsv+lbp,one per photo,crop,Yellow Mite,mite,Beet Armyworm,False
+hsv+lbp,one per photo,insect_only,Beet Armyworm,moth/caterpillar,Jute Hairy,True
+hsv+lbp,one per photo,insect_only,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,one per photo,insect_only,Cutworm,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,one per photo,insect_only,Field Cricket,cricket,Jute Stem Weevil,False
+hsv+lbp,one per photo,insect_only,Jute Aphid,aphid/mealybug,Jute Hairy,False
+hsv+lbp,one per photo,insect_only,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,one per photo,insect_only,Jute Red Mite,mite,Jute Aphid,False
+hsv+lbp,one per photo,insect_only,Jute Semilooper,moth/caterpillar,Jute Stem Girdler,False
+hsv+lbp,one per photo,insect_only,Jute Stem Girdler,beetle,Jute Semilooper,False
+hsv+lbp,one per photo,insect_only,Jute Stem Weevil,beetle,Field Cricket,False
+hsv+lbp,one per photo,insect_only,Leaf Beetle,beetle,Jute Stem Weevil,True
+hsv+lbp,one per photo,insect_only,Mealybug,aphid/mealybug,Jute Hairy,False
+hsv+lbp,one per photo,insect_only,Pod Borer,moth/caterpillar,Jute Aphid,False
+hsv+lbp,one per photo,insect_only,Scopula Emissaria,moth/caterpillar,Jute Semilooper,True
+hsv+lbp,one per photo,insect_only,Termite,termite,Termite odontotermes (Rambur),True
+hsv+lbp,one per photo,insect_only,Termite odontotermes (Rambur),termite,Termite,True
+hsv+lbp,one per photo,insect_only,Yellow Mite,mite,Jute Aphid,False
+hsv+lbp,every copy,full,Beet Armyworm,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,every copy,full,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,every copy,full,Cutworm,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,every copy,full,Field Cricket,cricket,Jute Stem Girdler,False
+hsv+lbp,every copy,full,Jute Aphid,aphid/mealybug,Jute Stem Weevil,False
+hsv+lbp,every copy,full,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,every copy,full,Jute Red Mite,mite,Jute Stem Weevil,False
+hsv+lbp,every copy,full,Jute Semilooper,moth/caterpillar,Black Hairy,True
+hsv+lbp,every copy,full,Jute Stem Girdler,beetle,Field Cricket,False
+hsv+lbp,every copy,full,Jute Stem Weevil,beetle,Beet Armyworm,False
+hsv+lbp,every copy,full,Leaf Beetle,beetle,Jute Aphid,False
+hsv+lbp,every copy,full,Mealybug,aphid/mealybug,Beet Armyworm,False
+hsv+lbp,every copy,full,Pod Borer,moth/caterpillar,Black Hairy,True
+hsv+lbp,every copy,full,Scopula Emissaria,moth/caterpillar,Black Hairy,True
+hsv+lbp,every copy,full,Termite,termite,Termite odontotermes (Rambur),True
+hsv+lbp,every copy,full,Termite odontotermes (Rambur),termite,Jute Stem Weevil,False
+hsv+lbp,every copy,full,Yellow Mite,mite,Jute Aphid,False
+hsv+lbp,every copy,crop,Beet Armyworm,moth/caterpillar,Jute Aphid,False
+hsv+lbp,every copy,crop,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,every copy,crop,Cutworm,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,every copy,crop,Field Cricket,cricket,Jute Hairy,False
+hsv+lbp,every copy,crop,Jute Aphid,aphid/mealybug,Beet Armyworm,False
+hsv+lbp,every copy,crop,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,every copy,crop,Jute Red Mite,mite,Jute Stem Weevil,False
+hsv+lbp,every copy,crop,Jute Semilooper,moth/caterpillar,Jute Hairy,True
+hsv+lbp,every copy,crop,Jute Stem Girdler,beetle,Field Cricket,False
+hsv+lbp,every copy,crop,Jute Stem Weevil,beetle,Jute Aphid,False
+hsv+lbp,every copy,crop,Leaf Beetle,beetle,Jute Stem Weevil,True
+hsv+lbp,every copy,crop,Mealybug,aphid/mealybug,Beet Armyworm,False
+hsv+lbp,every copy,crop,Pod Borer,moth/caterpillar,Jute Stem Weevil,False
+hsv+lbp,every copy,crop,Scopula Emissaria,moth/caterpillar,Black Hairy,True
+hsv+lbp,every copy,crop,Termite,termite,Termite odontotermes (Rambur),True
+hsv+lbp,every copy,crop,Termite odontotermes (Rambur),termite,Black Hairy,False
+hsv+lbp,every copy,crop,Yellow Mite,mite,Jute Aphid,False
+hsv+lbp,every copy,insect_only,Beet Armyworm,moth/caterpillar,Jute Hairy,True
+hsv+lbp,every copy,insect_only,Black Hairy,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,every copy,insect_only,Cutworm,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,every copy,insect_only,Field Cricket,cricket,Jute Hairy,False
+hsv+lbp,every copy,insect_only,Jute Aphid,aphid/mealybug,Yellow Mite,False
+hsv+lbp,every copy,insect_only,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hsv+lbp,every copy,insect_only,Jute Red Mite,mite,Termite odontotermes (Rambur),False
+hsv+lbp,every copy,insect_only,Jute Semilooper,moth/caterpillar,Scopula Emissaria,True
+hsv+lbp,every copy,insect_only,Jute Stem Girdler,beetle,Jute Hairy,False
+hsv+lbp,every copy,insect_only,Jute Stem Weevil,beetle,Beet Armyworm,False
+hsv+lbp,every copy,insect_only,Leaf Beetle,beetle,Jute Stem Weevil,True
+hsv+lbp,every copy,insect_only,Mealybug,aphid/mealybug,Jute Hairy,False
+hsv+lbp,every copy,insect_only,Pod Borer,moth/caterpillar,Jute Aphid,False
+hsv+lbp,every copy,insect_only,Scopula Emissaria,moth/caterpillar,Jute Semilooper,True
+hsv+lbp,every copy,insect_only,Termite,termite,Termite odontotermes (Rambur),True
+hsv+lbp,every copy,insect_only,Termite odontotermes (Rambur),termite,Termite,True
+hsv+lbp,every copy,insect_only,Yellow Mite,mite,Jute Aphid,False
+hog+hsv+lbp,one per photo,full,Beet Armyworm,moth/caterpillar,Jute Aphid,False
+hog+hsv+lbp,one per photo,full,Black Hairy,moth/caterpillar,Cutworm,True
+hog+hsv+lbp,one per photo,full,Cutworm,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,full,Field Cricket,cricket,Jute Stem Girdler,False
+hog+hsv+lbp,one per photo,full,Jute Aphid,aphid/mealybug,Beet Armyworm,False
+hog+hsv+lbp,one per photo,full,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,one per photo,full,Jute Red Mite,mite,Mealybug,False
+hog+hsv+lbp,one per photo,full,Jute Semilooper,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,one per photo,full,Jute Stem Girdler,beetle,Field Cricket,False
+hog+hsv+lbp,one per photo,full,Jute Stem Weevil,beetle,Jute Aphid,False
+hog+hsv+lbp,one per photo,full,Leaf Beetle,beetle,Beet Armyworm,False
+hog+hsv+lbp,one per photo,full,Mealybug,aphid/mealybug,Beet Armyworm,False
+hog+hsv+lbp,one per photo,full,Pod Borer,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,full,Scopula Emissaria,moth/caterpillar,Jute Red Mite,False
+hog+hsv+lbp,one per photo,full,Termite,termite,Termite odontotermes (Rambur),True
+hog+hsv+lbp,one per photo,full,Termite odontotermes (Rambur),termite,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,full,Yellow Mite,mite,Beet Armyworm,False
+hog+hsv+lbp,one per photo,crop,Beet Armyworm,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,crop,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,crop,Cutworm,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,crop,Field Cricket,cricket,Jute Stem Girdler,False
+hog+hsv+lbp,one per photo,crop,Jute Aphid,aphid/mealybug,Beet Armyworm,False
+hog+hsv+lbp,one per photo,crop,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,one per photo,crop,Jute Red Mite,mite,Jute Aphid,False
+hog+hsv+lbp,one per photo,crop,Jute Semilooper,moth/caterpillar,Jute Stem Girdler,False
+hog+hsv+lbp,one per photo,crop,Jute Stem Girdler,beetle,Field Cricket,False
+hog+hsv+lbp,one per photo,crop,Jute Stem Weevil,beetle,Beet Armyworm,False
+hog+hsv+lbp,one per photo,crop,Leaf Beetle,beetle,Beet Armyworm,False
+hog+hsv+lbp,one per photo,crop,Mealybug,aphid/mealybug,Beet Armyworm,False
+hog+hsv+lbp,one per photo,crop,Pod Borer,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,crop,Scopula Emissaria,moth/caterpillar,Jute Red Mite,False
+hog+hsv+lbp,one per photo,crop,Termite,termite,Termite odontotermes (Rambur),True
+hog+hsv+lbp,one per photo,crop,Termite odontotermes (Rambur),termite,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,crop,Yellow Mite,mite,Beet Armyworm,False
+hog+hsv+lbp,one per photo,insect_only,Beet Armyworm,moth/caterpillar,Jute Hairy,True
+hog+hsv+lbp,one per photo,insect_only,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,insect_only,Cutworm,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,one per photo,insect_only,Field Cricket,cricket,Jute Stem Weevil,False
+hog+hsv+lbp,one per photo,insect_only,Jute Aphid,aphid/mealybug,Jute Hairy,False
+hog+hsv+lbp,one per photo,insect_only,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,one per photo,insect_only,Jute Red Mite,mite,Jute Aphid,False
+hog+hsv+lbp,one per photo,insect_only,Jute Semilooper,moth/caterpillar,Scopula Emissaria,True
+hog+hsv+lbp,one per photo,insect_only,Jute Stem Girdler,beetle,Jute Semilooper,False
+hog+hsv+lbp,one per photo,insect_only,Jute Stem Weevil,beetle,Beet Armyworm,False
+hog+hsv+lbp,one per photo,insect_only,Leaf Beetle,beetle,Jute Stem Weevil,True
+hog+hsv+lbp,one per photo,insect_only,Mealybug,aphid/mealybug,Jute Hairy,False
+hog+hsv+lbp,one per photo,insect_only,Pod Borer,moth/caterpillar,Jute Aphid,False
+hog+hsv+lbp,one per photo,insect_only,Scopula Emissaria,moth/caterpillar,Jute Semilooper,True
+hog+hsv+lbp,one per photo,insect_only,Termite,termite,Termite odontotermes (Rambur),True
+hog+hsv+lbp,one per photo,insect_only,Termite odontotermes (Rambur),termite,Termite,True
+hog+hsv+lbp,one per photo,insect_only,Yellow Mite,mite,Jute Aphid,False
+hog+hsv+lbp,every copy,full,Beet Armyworm,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,every copy,full,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,every copy,full,Cutworm,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,every copy,full,Field Cricket,cricket,Jute Hairy,False
+hog+hsv+lbp,every copy,full,Jute Aphid,aphid/mealybug,Jute Stem Weevil,False
+hog+hsv+lbp,every copy,full,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,every copy,full,Jute Red Mite,mite,Jute Stem Weevil,False
+hog+hsv+lbp,every copy,full,Jute Semilooper,moth/caterpillar,Black Hairy,True
+hog+hsv+lbp,every copy,full,Jute Stem Girdler,beetle,Field Cricket,False
+hog+hsv+lbp,every copy,full,Jute Stem Weevil,beetle,Beet Armyworm,False
+hog+hsv+lbp,every copy,full,Leaf Beetle,beetle,Jute Aphid,False
+hog+hsv+lbp,every copy,full,Mealybug,aphid/mealybug,Beet Armyworm,False
+hog+hsv+lbp,every copy,full,Pod Borer,moth/caterpillar,Black Hairy,True
+hog+hsv+lbp,every copy,full,Scopula Emissaria,moth/caterpillar,Black Hairy,True
+hog+hsv+lbp,every copy,full,Termite,termite,Termite odontotermes (Rambur),True
+hog+hsv+lbp,every copy,full,Termite odontotermes (Rambur),termite,Pod Borer,False
+hog+hsv+lbp,every copy,full,Yellow Mite,mite,Jute Aphid,False
+hog+hsv+lbp,every copy,crop,Beet Armyworm,moth/caterpillar,Jute Aphid,False
+hog+hsv+lbp,every copy,crop,Black Hairy,moth/caterpillar,Jute Stem Weevil,False
+hog+hsv+lbp,every copy,crop,Cutworm,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,every copy,crop,Field Cricket,cricket,Jute Hairy,False
+hog+hsv+lbp,every copy,crop,Jute Aphid,aphid/mealybug,Beet Armyworm,False
+hog+hsv+lbp,every copy,crop,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,every copy,crop,Jute Red Mite,mite,Jute Stem Weevil,False
+hog+hsv+lbp,every copy,crop,Jute Semilooper,moth/caterpillar,Jute Hairy,True
+hog+hsv+lbp,every copy,crop,Jute Stem Girdler,beetle,Field Cricket,False
+hog+hsv+lbp,every copy,crop,Jute Stem Weevil,beetle,Jute Aphid,False
+hog+hsv+lbp,every copy,crop,Leaf Beetle,beetle,Jute Stem Weevil,True
+hog+hsv+lbp,every copy,crop,Mealybug,aphid/mealybug,Beet Armyworm,False
+hog+hsv+lbp,every copy,crop,Pod Borer,moth/caterpillar,Black Hairy,True
+hog+hsv+lbp,every copy,crop,Scopula Emissaria,moth/caterpillar,Black Hairy,True
+hog+hsv+lbp,every copy,crop,Termite,termite,Termite odontotermes (Rambur),True
+hog+hsv+lbp,every copy,crop,Termite odontotermes (Rambur),termite,Black Hairy,False
+hog+hsv+lbp,every copy,crop,Yellow Mite,mite,Jute Aphid,False
+hog+hsv+lbp,every copy,insect_only,Beet Armyworm,moth/caterpillar,Jute Hairy,True
+hog+hsv+lbp,every copy,insect_only,Black Hairy,moth/caterpillar,Jute Hairy,True
+hog+hsv+lbp,every copy,insect_only,Cutworm,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,every copy,insect_only,Field Cricket,cricket,Jute Hairy,False
+hog+hsv+lbp,every copy,insect_only,Jute Aphid,aphid/mealybug,Yellow Mite,False
+hog+hsv+lbp,every copy,insect_only,Jute Hairy,moth/caterpillar,Beet Armyworm,True
+hog+hsv+lbp,every copy,insect_only,Jute Red Mite,mite,Termite odontotermes (Rambur),False
+hog+hsv+lbp,every copy,insect_only,Jute Semilooper,moth/caterpillar,Scopula Emissaria,True
+hog+hsv+lbp,every copy,insect_only,Jute Stem Girdler,beetle,Jute Hairy,False
+hog+hsv+lbp,every copy,insect_only,Jute Stem Weevil,beetle,Beet Armyworm,False
+hog+hsv+lbp,every copy,insect_only,Leaf Beetle,beetle,Jute Stem Weevil,True
+hog+hsv+lbp,every copy,insect_only,Mealybug,aphid/mealybug,Jute Hairy,False
+hog+hsv+lbp,every copy,insect_only,Pod Borer,moth/caterpillar,Jute Aphid,False
+hog+hsv+lbp,every copy,insect_only,Scopula Emissaria,moth/caterpillar,Jute Semilooper,True
+hog+hsv+lbp,every copy,insect_only,Termite,termite,Termite odontotermes (Rambur),True
+hog+hsv+lbp,every copy,insect_only,Termite odontotermes (Rambur),termite,Termite,True
+hog+hsv+lbp,every copy,insect_only,Yellow Mite,mite,Jute Aphid,False

@@ -1,0 +1,11 @@
+true,predicted,count
+Jute Stem Weevil,Beet Armyworm,8
+Jute Aphid,Jute Red Mite,7
+Jute Aphid,Yellow Mite,7
+Jute Aphid,Jute Hairy,6
+Jute Stem Weevil,Cutworm,5
+Beet Armyworm,Jute Stem Weevil,5
+Beet Armyworm,Cutworm,4
+Beet Armyworm,Jute Aphid,4
+Jute Hairy,Jute Aphid,3
+Jute Aphid,Field Cricket,3

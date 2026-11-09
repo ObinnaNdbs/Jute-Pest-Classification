@@ -1,0 +1,11 @@
+true,predicted,count
+Jute Hairy,Yellow Mite,3
+Leaf Beetle,Yellow Mite,3
+Yellow Mite,Jute Hairy,2
+Jute Hairy,Jute Aphid,2
+Pod Borer,Jute Aphid,2
+Field Cricket,Jute Aphid,2
+Jute Hairy,Scopula Emissaria,2
+Jute Aphid,Yellow Mite,2
+Field Cricket,Jute Hairy,2
+Yellow Mite,Jute Aphid,1

@@ -1,7 +1,12 @@
 # Python environment
 .venv/
+.venv-vision/
 __pycache__/
 
 
 # Office lock files created while a document is open
 ~$*
+
+# Regenerable by vision/find_photo_families.py embed8 (178 MB, over the GitHub file limit)
+photo_embeddings.npy
+photo_embeddings_8.npy

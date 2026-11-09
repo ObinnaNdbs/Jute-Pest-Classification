@@ -1,0 +1,11 @@
+true,predicted,count
+Field Cricket,Jute Hairy,2
+Field Cricket,Jute Aphid,2
+Jute Hairy,Jute Aphid,2
+Jute Aphid,Yellow Mite,2
+Jute Hairy,Leaf Beetle,2
+Jute Hairy,Scopula Emissaria,2
+Yellow Mite,Termite odontotermes (Rambur),1
+Yellow Mite,Jute Hairy,1
+Termite odontotermes (Rambur),Jute Hairy,1
+Termite odontotermes (Rambur),Jute Stem Girdler,1

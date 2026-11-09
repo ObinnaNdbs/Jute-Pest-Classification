@@ -1,0 +1,18 @@
+,Beet Armyworm,Black Hairy,Cutworm,Field Cricket,Jute Aphid,Jute Hairy,Jute Red Mite,Jute Semilooper,Jute Stem Girdler,Jute Stem Weevil,Leaf Beetle,Mealybug,Pod Borer,Scopula Emissaria,Termite,Termite odontotermes (Rambur),Yellow Mite
+Beet Armyworm,25,1,2,0,0,3,1,0,0,4,0,4,0,0,0,0,0
+Black Hairy,1,25,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0
+Cutworm,1,1,8,2,0,0,0,1,0,4,0,1,0,0,0,0,0
+Field Cricket,1,0,0,8,0,1,0,0,0,2,1,0,0,0,0,0,1
+Jute Aphid,3,2,0,1,7,1,1,0,0,5,1,1,1,0,0,0,4
+Jute Hairy,1,0,0,1,1,2,0,0,0,1,0,1,0,0,0,0,1
+Jute Red Mite,4,2,3,0,7,4,18,1,0,6,0,1,1,1,0,0,1
+Jute Semilooper,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+Jute Stem Girdler,1,0,0,1,0,1,0,0,3,0,0,0,0,0,0,0,0
+Jute Stem Weevil,6,2,4,3,4,3,6,0,0,39,1,2,0,0,0,0,1
+Leaf Beetle,1,0,0,0,1,0,2,0,0,1,4,0,0,0,0,0,0
+Mealybug,2,0,0,0,2,2,0,1,1,5,3,18,1,0,0,0,0
+Pod Borer,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Scopula Emissaria,0,0,1,0,0,1,0,2,0,0,0,1,1,0,0,0,0
+Termite,1,1,1,0,0,1,0,0,0,0,0,0,1,1,20,0,0
+Termite odontotermes (Rambur),3,0,0,0,1,1,0,0,0,0,0,0,0,0,12,19,0
+Yellow Mite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30

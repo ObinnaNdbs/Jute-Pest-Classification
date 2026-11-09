@@ -1,0 +1,13 @@
+,Black Hairy,Field Cricket,Jute Aphid,Jute Hairy,Jute Semilooper,Jute Stem Girdler,Leaf Beetle,Pod Borer,Scopula Emissaria,Termite,Termite odontotermes (Rambur),Yellow Mite
+Black Hairy,4,0,0,1,0,0,0,0,0,0,1,0
+Field Cricket,0,4,0,0,0,0,1,0,0,0,0,1
+Jute Aphid,0,0,4,1,0,0,0,0,0,1,0,1
+Jute Hairy,1,3,0,3,1,0,0,0,2,0,1,1
+Jute Semilooper,0,0,1,0,0,0,0,0,0,0,0,0
+Jute Stem Girdler,1,0,0,0,0,3,0,0,0,0,0,0
+Leaf Beetle,1,0,0,0,0,0,3,0,0,0,0,0
+Pod Borer,0,0,1,0,0,0,0,4,0,0,0,0
+Scopula Emissaria,1,0,0,0,0,0,0,3,4,1,0,0
+Termite,0,0,0,0,0,0,0,0,0,2,2,0
+Termite odontotermes (Rambur),0,0,1,0,0,0,0,0,0,1,1,0
+Yellow Mite,0,0,1,0,0,0,1,0,0,1,0,2

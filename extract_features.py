@@ -1,17 +1,20 @@
 """Extract handcrafted HOG, HSV-histogram, and LBP features from Jute_Pest_256.
 
 Feature families (each saved separately so they can be ablated or combined):
-  HOG  (shape)   - grayscale, 9 orientations, 16x16-pixel cells, 2x2-cell
-                   blocks, L2-Hys normalization -> 15*15*2*2*9 = 8100 dims.
+  HOG  (shape)   - grayscale, 12 orientations, 32x32-pixel cells, 2x2-cell
+                   blocks, L2-Hys normalization -> 7*7*2*2*12 = 2352 dims.
                    Computed on the full 256x256 image (HOG needs a fixed grid).
-  HSV  (color)   - joint 3D histogram, 16 hue x 4 saturation x 4 value bins
-                   = 256 dims, L1-normalized. Hue gets the most bins because
-                   pest classes differ mainly in hue; few value bins reduce
-                   sensitivity to brightness.
+  HSV  (color)   - joint 3D histogram, 16 hue x 8 saturation x 8 value bins
+                   = 1024 dims, L1-normalized. Hue gets the most bins because
+                   pest classes differ mainly in hue.
   LBP  (texture) - rotation-invariant uniform LBP at three scales:
                    (P=8, R=1), (P=16, R=2), (P=24, R=3) -> 10+18+26 = 54 dims,
                    each scale's histogram L1-normalized. Small radius captures
                    fine hair; larger radii capture coarser shell/wing texture.
+
+Settings were chosen with exp_feature_params.py (grouped CV, see
+results/feature_params.csv). The first version of this project used 9
+orientations with 16x16 cells for HOG and 16x4x4 bins for HSV.
 
 HSV and LBP histograms are counted only inside the real-content box recorded
 in preprocess_manifest.csv, so mirror/blur padding does not skew the color or
@@ -27,8 +30,15 @@ Outputs (in features/):
 
 Requires preprocess_images.py and audit_duplicates.py to have run first.
 
+Other image sets (need vision/locate_insects.py first; written to features/<name>/):
+  crop         - every feature computed on the insect crop
+  insect_only  - insect crop, HSV and LBP counted only inside the insect mask;
+                 HOG stays on the whole crop, because masking would add false edges
+  background   - full image, HSV and LBP counted only outside the insect mask
+
 Usage:
     python extract_features.py
+    $env:JUTE_IMAGES = "crop"; python extract_features.py
 """
 
 import json
@@ -43,22 +53,28 @@ from skimage.feature import hog, local_binary_pattern
 from skimage.util import img_as_ubyte
 from tqdm import tqdm
 
+from jute_data import IMAGES, feature_dir
+
 PROJECT_DIR = Path(__file__).parent
 MANIFEST = PROJECT_DIR / "preprocess_manifest.csv"
 DUP_AUDIT = PROJECT_DIR / "duplicate_audit.csv"
-OUT_DIR = PROJECT_DIR / "features"
+OUT_DIR = feature_dir(IMAGES)
 AUDIT_COLUMNS = ["dup_group", "group_size", "has_exact_dup", "cross_split_dup", "label_conflict",
                  "in_clean_split", "clean_exclusion_reason"]
 META_COLUMNS = ["split", "class", "label", "source", "processed", "original", "action", *AUDIT_COLUMNS]
 
 PARAMS = {
     "image_size": 256,
-    "hog": {"orientations": 9, "pixels_per_cell": [16, 16], "cells_per_block": [2, 2],
+    "hog": {"orientations": 12, "pixels_per_cell": [32, 32], "cells_per_block": [2, 2],
             "block_norm": "L2-Hys"},
-    "hsv": {"bins": [16, 4, 4]},
+    "hsv": {"bins": [16, 8, 8]},
     "lbp": {"scales": [[8, 1], [16, 2], [24, 3]], "method": "uniform"},
     "histograms_use_content_box": True,
 }
+
+
+def normalized(hist: np.ndarray) -> np.ndarray:
+    return hist / hist.sum() if hist.sum() else np.zeros_like(hist, dtype=float)
 
 
 def hog_features(gray: np.ndarray) -> np.ndarray:
@@ -68,32 +84,66 @@ def hog_features(gray: np.ndarray) -> np.ndarray:
                feature_vector=True)
 
 
-def hsv_features(rgb_box: np.ndarray) -> np.ndarray:
-    hsv = rgb2hsv(rgb_box).reshape(-1, 3)  # H, S, V all in [0, 1]
+def hsv_features(pixels: np.ndarray) -> np.ndarray:
+    n_bins = int(np.prod(PARAMS["hsv"]["bins"]))
+    if pixels.size == 0:
+        return np.zeros(n_bins)
+    hsv = rgb2hsv(pixels.reshape(1, -1, 3)).reshape(-1, 3)  # H, S, V all in [0, 1]
     hist, _ = np.histogramdd(hsv, bins=PARAMS["hsv"]["bins"], range=[(0, 1)] * 3)
-    return hist.ravel() / hist.sum()
+    return normalized(hist.ravel())
 
 
-def lbp_features(gray_u8: np.ndarray, box: tuple[int, int, int, int]) -> np.ndarray:
+def lbp_features(gray_u8: np.ndarray, box: tuple[int, int, int, int], mask: np.ndarray | None = None) -> np.ndarray:
     left, top, right, bottom = box
     hists = []
     for n_points, radius in PARAMS["lbp"]["scales"]:
         codes = local_binary_pattern(gray_u8, n_points, radius, method=PARAMS["lbp"]["method"])
-        codes = codes[top:bottom, left:right]
+        codes = codes[mask] if mask is not None else codes[top:bottom, left:right]
         # 'uniform' yields P+1 uniform codes plus one bin for all non-uniform patterns.
         hist = np.bincount(codes.astype(np.int64).ravel(), minlength=n_points + 2)
-        hists.append(hist / hist.sum())
+        hists.append(normalized(hist))
     return np.concatenate(hists)
 
 
-def extract_one(path: Path, box: tuple[int, int, int, int]):
+def extract_one(path: Path, box: tuple[int, int, int, int], mask: np.ndarray | None = None):
     with Image.open(path) as img:
         rgb = np.asarray(img.convert("RGB"))
     gray = rgb2gray(rgb)
     left, top, right, bottom = box
+    pixels = rgb[mask] if mask is not None else rgb[top:bottom, left:right]
     return (hog_features(gray).astype(np.float32),
-            hsv_features(rgb[top:bottom, left:right]).astype(np.float32),
-            lbp_features(img_as_ubyte(gray), box).astype(np.float32))
+            hsv_features(pixels).astype(np.float32),
+            lbp_features(img_as_ubyte(gray), box, mask).astype(np.float32))
+
+
+def unpack_masks(packed: np.ndarray) -> np.ndarray:
+    side = PARAMS["image_size"]
+    return np.unpackbits(packed, axis=1)[:, :side * side].reshape(-1, side, side).astype(bool)
+
+
+def apply_variant(meta: pd.DataFrame) -> list:
+    """Point meta at the chosen image set and return one histogram mask per image (or Nones)."""
+    if IMAGES == "full":
+        return [None] * len(meta)
+    side = PARAMS["image_size"]
+    located = pd.read_csv(PROJECT_DIR / "insect_boxes.csv", keep_default_na=False)
+    assert (located["original"] == meta["original"]).all(), "insect_boxes.csv and the manifest rows differ"
+    meta["found"] = located["found"].astype(str) == "True"
+    stored = np.load(PROJECT_DIR / "insect_masks.npz")
+    if IMAGES in ("crop", "insect_only"):
+        meta["processed"] = located["crop_path"]
+        meta[["box_left", "box_top"]] = 0
+        meta[["box_right", "box_bottom"]] = side
+        return list(unpack_masks(stored["crop_mask"])) if IMAGES == "insect_only" else [None] * len(meta)
+    if IMAGES == "background":
+        masks = []
+        for insect, (left, top, right, bottom) in zip(
+                unpack_masks(stored["full_mask"]), meta[["box_left", "box_top", "box_right", "box_bottom"]].to_numpy()):
+            inside = np.zeros((side, side), dtype=bool)
+            inside[top:bottom, left:right] = True
+            masks.append(inside & ~insect)
+        return masks
+    raise ValueError(f"unknown image set {IMAGES!r}")
 
 
 def main():
@@ -110,10 +160,11 @@ def main():
     if not PARAMS["histograms_use_content_box"]:
         meta[["box_left", "box_top"]] = 0
         meta[["box_right", "box_bottom"]] = PARAMS["image_size"]
+    masks = apply_variant(meta)
     boxes = meta[["box_left", "box_top", "box_right", "box_bottom"]].itertuples(index=False, name=None)
 
-    jobs = (delayed(extract_one)(PROJECT_DIR / p, tuple(int(v) for v in b))
-            for p, b in zip(meta["processed"], boxes))
+    jobs = (delayed(extract_one)(PROJECT_DIR / p, tuple(int(v) for v in b), m)
+            for p, b, m in zip(meta["processed"], boxes, masks))
     results = Parallel(n_jobs=-1, batch_size=32, return_as="generator")(jobs)
     hog_x, hsv_x, lbp_x = zip(*tqdm(results, total=len(meta), desc="Extracting"))
 
@@ -121,10 +172,10 @@ def main():
     for name, x in feats.items():
         assert np.isfinite(x).all(), f"non-finite values in {name}"
 
-    OUT_DIR.mkdir(exist_ok=True)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
     np.savez(OUT_DIR / "features.npz", label=meta["label"].to_numpy(), **feats)
-    meta[META_COLUMNS].to_csv(OUT_DIR / "meta.csv", index=False)
-    (OUT_DIR / "params.json").write_text(json.dumps({**PARAMS, "classes": classes}, indent=2))
+    meta[META_COLUMNS + (["found"] if "found" in meta else [])].to_csv(OUT_DIR / "meta.csv", index=False)
+    (OUT_DIR / "params.json").write_text(json.dumps({**PARAMS, "images": IMAGES, "classes": classes}, indent=2))
 
     print(f"\nExtracted features for {len(meta)} images ({len(classes)} classes)")
     for name, x in feats.items():

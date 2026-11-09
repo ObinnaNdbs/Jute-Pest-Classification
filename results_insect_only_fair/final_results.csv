@@ -1,0 +1,7 @@
+track,classifier,features,hog_pca,class_weight,params,cv_macro_f1,test_accuracy,test_macro_f1,test_macro_f1_native_256,test_macro_f1_resized,chosen_by_cv,all_copies_test_n,all_copies_test_macro_f1,cross_source_n,cross_source_accuracy,cross_source_macro_f1
+all,random_forest,hog+hsv+lbp,50.0,balanced,"{""max_depth"": null, ""max_features"": 0.1, ""min_samples_leaf"": 5, ""n_estimators"": 300}",0.5023387078506507,0.5676567656765676,0.47871977858150994,0.5677881758764112,0.3809261001882033,True,1463,0.5467506932732246,,,
+all,rbf_svm,hog+hsv+lbp,,balanced,"{""C"": 10, ""gamma"": 0.0001}",0.4644804328047097,0.6006600660066007,0.5174742042237476,0.581076388888889,0.40750885930747727,False,1463,0.4815879668111028,,,
+all,linear_svm,hog+hsv+lbp,,balanced,"{""C"": 0.01}",0.45558423842402107,0.5610561056105611,0.4162017641600574,0.4130900655716832,0.39864606684249637,False,1463,0.4593763166114734,,,
+native12,random_forest,hog+hsv+lbp,50.0,,"{""max_depth"": 20, ""max_features"": ""sqrt"", ""min_samples_leaf"": 2, ""n_estimators"": 300}",0.5857269507428455,0.6212121212121212,0.6128819709702062,0.6128819709702062,,True,903,0.6564456420620771,50.0,0.26,0.327156007751938
+native12,rbf_svm,lbp,,,"{""C"": 100, ""gamma"": ""scale""}",0.526454923344849,0.5151515151515151,0.4857524828113064,0.4857524828113064,,False,903,0.5138675445394579,50.0,0.18,0.2587408837408837
+native12,linear_svm,lbp,,,"{""C"": 1}",0.5081603547457841,0.5151515151515151,0.4872414350355527,0.4872414350355527,,False,903,0.5568635269120418,50.0,0.2,0.22246642246642245

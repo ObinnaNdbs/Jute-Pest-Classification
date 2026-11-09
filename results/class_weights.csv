@@ -1,0 +1,13 @@
+track,classifier,features,pca,class_weight,cv_macro_f1,cv_accuracy,recall_3_smallest_classes
+all,random_forest,hog+hsv+lbp,True,balanced,0.9254425389204443,0.9225608866851392,0.8744464196015134
+all,random_forest,hog+hsv+lbp,True,none,0.9268799051611882,0.9269359778328715,0.8228425144411228
+all,linear_svm,hsv+lbp,False,balanced,0.8918456027939823,0.8879976666180546,0.8272598748131724
+all,linear_svm,hsv+lbp,False,none,0.8918456027939823,0.8879976666180546,0.8272598748131724
+all,log_reg,hog+hsv+lbp,True,balanced,0.8866255830591311,0.8827475572407758,0.8192348494049916
+all,log_reg,hog+hsv+lbp,True,none,0.8863469143772122,0.8833309027271401,0.8080772482892317
+native12,random_forest,hog+hsv,True,balanced,0.9995325601099156,0.999515503875969,1.0
+native12,random_forest,hog+hsv,True,none,0.999555930434675,0.999515503875969,1.0
+native12,linear_svm,hog+hsv+lbp,True,balanced,0.998919632405625,0.9987887596899225,1.0
+native12,linear_svm,hog+hsv+lbp,True,none,0.998919632405625,0.9987887596899225,1.0
+native12,log_reg,hog+hsv+lbp,True,balanced,0.9977931798948293,0.997577519379845,1.0
+native12,log_reg,hog+hsv+lbp,True,none,0.9982223401774041,0.998062015503876,1.0

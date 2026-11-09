@@ -1,0 +1,96 @@
+[
+  {
+    "track": "all",
+    "classifier": "random_forest",
+    "features": [
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": null,
+    "class_weight": "balanced",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "cv_macro_f1": 0.4021300245494303
+  },
+  {
+    "track": "all",
+    "classifier": "linear_svm",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": null,
+    "class_weight": "balanced",
+    "params": {
+      "C": 0.01
+    },
+    "cv_macro_f1": 0.32109571516703267
+  },
+  {
+    "track": "all",
+    "classifier": "log_reg",
+    "features": [
+      "hog",
+      "lbp"
+    ],
+    "hog_pca": 50,
+    "class_weight": null,
+    "params": {
+      "C": 10
+    },
+    "cv_macro_f1": 0.3290043202584212
+  },
+  {
+    "track": "native12",
+    "classifier": "random_forest",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": 50,
+    "class_weight": "balanced",
+    "params": {
+      "max_depth": 20,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "cv_macro_f1": 0.5133129614282215
+  },
+  {
+    "track": "native12",
+    "classifier": "linear_svm",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": null,
+    "class_weight": "balanced",
+    "params": {
+      "C": 0.01
+    },
+    "cv_macro_f1": 0.37821695957181467
+  },
+  {
+    "track": "native12",
+    "classifier": "log_reg",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": 50,
+    "class_weight": "balanced",
+    "params": {
+      "C": 10
+    },
+    "cv_macro_f1": 0.371476572178903
+  }
+]

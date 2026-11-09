@@ -1,0 +1,96 @@
+[
+  {
+    "track": "all",
+    "classifier": "random_forest",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": 50,
+    "class_weight": "balanced",
+    "params": {
+      "max_depth": null,
+      "max_features": 0.1,
+      "min_samples_leaf": 5,
+      "n_estimators": 300
+    },
+    "cv_macro_f1": 0.5023387078506507
+  },
+  {
+    "track": "all",
+    "classifier": "linear_svm",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": null,
+    "class_weight": "balanced",
+    "params": {
+      "C": 0.01
+    },
+    "cv_macro_f1": 0.45558423842402107
+  },
+  {
+    "track": "all",
+    "classifier": "rbf_svm",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": null,
+    "class_weight": "balanced",
+    "params": {
+      "C": 10,
+      "gamma": 0.0001
+    },
+    "cv_macro_f1": 0.4644804328047097
+  },
+  {
+    "track": "native12",
+    "classifier": "random_forest",
+    "features": [
+      "hog",
+      "hsv",
+      "lbp"
+    ],
+    "hog_pca": 50,
+    "class_weight": null,
+    "params": {
+      "max_depth": 20,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 300
+    },
+    "cv_macro_f1": 0.5857269507428455
+  },
+  {
+    "track": "native12",
+    "classifier": "linear_svm",
+    "features": [
+      "lbp"
+    ],
+    "hog_pca": null,
+    "class_weight": null,
+    "params": {
+      "C": 1
+    },
+    "cv_macro_f1": 0.5081603547457841
+  },
+  {
+    "track": "native12",
+    "classifier": "rbf_svm",
+    "features": [
+      "lbp"
+    ],
+    "hog_pca": null,
+    "class_weight": null,
+    "params": {
+      "C": 100,
+      "gamma": "scale"
+    },
+    "cv_macro_f1": 0.526454923344849
+  }
+]

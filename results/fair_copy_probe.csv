@@ -1,0 +1,11 @@
+classes,source,group,n,distinct_photos,accuracy
+all,all,photo in training,324,134,0.9783950617283951
+all,all,photo not in training,55,41,0.509090909090909
+all,native_256,photo in training,257,82,1.0
+all,native_256,photo not in training,17,3,0.11764705882352941
+all,resized,photo in training,67,53,0.8955223880597015
+all,resized,photo not in training,38,38,0.6842105263157895
+native12,all,photo in training,238,74,1.0
+native12,all,photo not in training,27,4,1.0
+native12,native_256,photo in training,238,74,1.0
+native12,native_256,photo not in training,27,4,1.0

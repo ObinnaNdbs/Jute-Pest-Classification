@@ -5,8 +5,10 @@ Every run records the metrics from the proposal (slide 5):
   per-class recall, confusion matrix, fit / predict time, feature count,
   plus accuracy and macro-F1 per image source (native_256 vs resized).
 
-Each call appends one row to results/results.csv and saves the confusion
-matrix to results/confusion/<run_id>.csv.
+Each call writes one row to results/runs/<run_id>.csv and saves the confusion
+matrix to results/confusion/<run_id>.csv. One file per run means parallel runs
+can't overwrite each other; load_results() reads them all back together and
+consolidate_results() writes the combined table to results/results.csv.
 
 Why per-source matters: native 256x256 images score ~0.9+ macro-F1 while
 resized images score ~0.3-0.5, and the splits mix them very differently
@@ -41,8 +43,11 @@ matplotlib.use("Agg")  # render to files; no display needed
 import matplotlib.pyplot as plt  # noqa: E402
 from matplotlib.colors import LinearSegmentedColormap  # noqa: E402
 
+from jute_data import IMAGES, SPLIT  # noqa: E402
+
 PROJECT_DIR = Path(__file__).parent
-RESULTS_DIR = PROJECT_DIR / "results"
+# The original full-image runs keep results/; every other image set and split gets its own folder.
+RESULTS_DIR = PROJECT_DIR / ("results" if (IMAGES, SPLIT) == ("full", "original") else f"results_{IMAGES}_{SPLIT}")
 SOURCES = ("native_256", "resized")
 
 # Chart styling (light surface, recessive ink; sequential blue ramp).
@@ -70,7 +75,7 @@ def evaluate(y_true, y_pred, class_names, *, run_name: str, features, split: str
     labels = np.unique(y_true)
     features = [features] if isinstance(features, str) else list(features)
 
-    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S-%f")
     run_id = re.sub(r"[^\w+.-]", "_", f"{stamp}_{run_name}_{'+'.join(features)}_{split}_{eval_set}")
     row = {
         "run_id": run_id, "timestamp": stamp, "model": run_name, "features": "+".join(features),
@@ -101,11 +106,8 @@ def evaluate(y_true, y_pred, class_names, *, run_name: str, features, split: str
         (results_dir / "confusion").mkdir(parents=True, exist_ok=True)
         pd.DataFrame(cm, index=class_names, columns=class_names).to_csv(
             results_dir / "confusion" / f"{run_id}.csv")
-        path = results_dir / "results.csv"
-        table = pd.DataFrame([row])
-        if path.exists():
-            table = pd.concat([pd.read_csv(path), table], ignore_index=True)
-        table.to_csv(path, index=False)
+        (results_dir / "runs").mkdir(parents=True, exist_ok=True)
+        pd.DataFrame([row]).to_csv(results_dir / "runs" / f"{run_id}.csv", index=False)
 
     print(f"[{run_id}] acc={row['accuracy']:.3f}  macro-F1={row['macro_f1']:.3f}"
           + (f"  (native_256 {row['macro_f1_native_256']:.3f} / resized {row['macro_f1_resized']:.3f})"
@@ -163,8 +165,18 @@ def run_cv(model, data, *, name: str, n_splits: int = 5, seed: int = 0, n_jobs: 
 
 
 def load_results(results_dir: Path = RESULTS_DIR) -> pd.DataFrame:
-    """All recorded runs, best macro-F1 first."""
-    return pd.read_csv(results_dir / "results.csv").sort_values("macro_f1", ascending=False)
+    """All recorded runs (results.csv plus results/runs/*.csv), best macro-F1 first."""
+    paths = [results_dir / "results.csv"] if (results_dir / "results.csv").exists() else []
+    paths += sorted((results_dir / "runs").glob("*.csv"))
+    table = pd.concat([pd.read_csv(p) for p in paths], ignore_index=True)
+    return table.drop_duplicates("run_id").sort_values("macro_f1", ascending=False)
+
+
+def consolidate_results(results_dir: Path = RESULTS_DIR) -> pd.DataFrame:
+    """Write every recorded run to results/results.csv as one file."""
+    table = load_results(results_dir)
+    table.to_csv(results_dir / "results.csv", index=False)
+    return table
 
 
 def plot_confusion_matrix(cm, class_names, path=None, title="Confusion matrix", label_min=0.10):
